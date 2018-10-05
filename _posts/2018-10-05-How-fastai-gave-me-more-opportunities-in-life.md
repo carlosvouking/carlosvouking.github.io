@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## fast.ai for a simplistic vision of the world of AI
 
