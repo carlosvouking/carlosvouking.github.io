@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I am Carlos !
+title: About
 permalink: /about/
 published: true
 ---
