@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About.md
+title: About
 permalink: /about/
 published: true
 ---
