@@ -11,6 +11,4 @@ published: true
   Learn new things, build stuffs, get better at doing, learn again to build better tools with so much opportunities around AI and Deep Learning. I have already joined the race.
 Heartful thanks to  [deeplearning.ai](www.deeplearning.ai) and specially to [fast.ai](www.fast.ai) 
 
-## Reaching out to me ?
 
-[carlos@carlosvouking.com](mailto:carlos@carlosvouking.com)
