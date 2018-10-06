@@ -3,8 +3,8 @@ published: false
 ---
 
 
-Approaching the end of our trip, I will be building a classifer to predict the survival status of the passengers in the test file. I am dealing here with a binary classification (0 or 1 for 'survived' or 'not survived'). 
-The model will learn the patterns of data in the training set and apply them when presented the data of the test set.
+Getting to the end of our trip, I will be building a classifer to predict the survival status of the passengers in the test file. I am dealing here with a binary classification (0 or 1 for 'survived' or 'not survived' respectively). 
+The model will learn the patterns of data in the training set and apply them when presented data from the test set.
 
 ## **(I)- Building predictive models for the titanic trip**
 ***
