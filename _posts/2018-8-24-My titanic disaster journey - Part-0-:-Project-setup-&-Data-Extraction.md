@@ -2,6 +2,7 @@
 published: true
 ---
 
+Wenith this end-to-end data science project, I will dig in every hidden insight and feature around the data provided for analysis.This trip will drive us through the  main stages of a data science project. From **Data extraction** to **Real time** integration (as API), passing by **data processing**, **data visualization** and **model prediction**.
 
 ### (I)- Setting up the data science project template
 
