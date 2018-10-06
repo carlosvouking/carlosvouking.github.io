@@ -1353,8 +1353,7 @@ df.Fare.plot(kind='box', figsize=(10,6), title='Box plot: Fare');
 ```
 
 
-![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)
-
+![png](images/very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)         
 
 **Notes on the box plot:** 
     - The green line within the rectangular box represents the median fare (which is 14.4542 as computed above).
