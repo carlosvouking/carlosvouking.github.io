@@ -2,4 +2,4 @@
 published: true
 ---
 
-This is going to be a complete end-to-end data science project which reveals the hidden aspects of the catastrophy. The trip project drives us from data extraction to API realtime integration, going through data processing, visualizations and model predictions.
+Using the State-of-the-art techniques in the [fast.ai](http://docs.fast.ai) library to predict the survival rate of the passengers on the ship was fun to revisit.
