@@ -4,7 +4,7 @@ published: true
 
 
 
-#### Tackling end-to-end titanic project by screening every hidden insight and feature around the data provided for analysis.
+#### End-to-end data science project by screening every hidden insight and feature around the data provided for analysis.
 #### This trip will drive us through the  main stages of a data science project.
 #### From **Data extraction** to **Real time** integration (as API), passing by **data processing**, **data visualization** and **model prediction**.
 
@@ -1353,7 +1353,8 @@ df.Fare.plot(kind='box', figsize=(10,6), title='Box plot: Fare');
 ```
 
 
-![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)         
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)      
+
 
 **Notes on the box plot:** 
     - The green line within the rectangular box represents the median fare (which is 14.4542 as computed above).
