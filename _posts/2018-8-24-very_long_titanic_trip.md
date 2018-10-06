@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # **My Very Long Titanic Disaster Trip - Part 1 : Data Analysis**
