@@ -1353,7 +1353,7 @@ df.Fare.plot(kind='box', figsize=(10,6), title='Box plot: Fare');
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_44_0.png)
 
 
 **Notes on the box plot:** 
@@ -1643,7 +1643,7 @@ df.Pclass.value_counts().plot(kind='bar',figsize=(8,6), rot=0, title='Passenger 
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_53_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_53_0.png)
 
 
 
@@ -1653,7 +1653,7 @@ df.Pclass.value_counts(normalize=True).plot(kind='bar', figsize=(8,6), rot=0, co
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_54_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_54_0.png)
 
 
 ### **(C)- Distributions on the titanic Dataframe** : 
@@ -1668,7 +1668,7 @@ df['Age'].plot(kind='hist', title='Age distribution for the passengers on the Ti
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_56_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_56_0.png)
 
 
 **Few patterns on the Passengers' Age distribution:** 
@@ -1690,7 +1690,7 @@ print(f'median age: {df.Age.median()}.')
 
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_58_1.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_58_1.png)
 
 
 
@@ -1700,7 +1700,7 @@ df.Fare.plot(kind='hist', title='Fare distribution for the passengers on the Tit
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_59_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_59_0.png)
 
 
 * I try here to compare skewness of pasenger's Age to passenger's fare
@@ -1732,7 +1732,7 @@ df.Age.plot(kind='kde', title='Density of Age distribution', color='r', figsize=
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_64_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_64_0.png)
 
 
 **Density plot on the Passengers' Age distribution:** 
@@ -1751,7 +1751,7 @@ df.plot.scatter(x='Age', y='Fare', title='Scatter plot: Age vs Fare', color='c',
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_68_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_68_0.png)
 
 
 
@@ -1761,7 +1761,7 @@ df.plot.scatter(x='Age', y='Fare', title='Scatter plot: Age vs Fare', color='c',
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_69_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_69_0.png)
 
 
 * **Note ::** 
@@ -1779,7 +1779,7 @@ df.plot.scatter(x='Pclass', y='Fare', title='Scatter plot : Passenger class vs P
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_72_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_72_0.png)
 
 
 **Notes:** 
