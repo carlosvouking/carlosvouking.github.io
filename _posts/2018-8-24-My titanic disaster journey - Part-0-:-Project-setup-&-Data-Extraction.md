@@ -20,7 +20,7 @@ After following the instructions through which you will be giving a name to your
 ```
 
 
-<img src='basic_cookiecutter.png'>
+<img src='/images/basic_cookiecutter.png'>
 
 
 ### (II)- Extracting Titanic Disaster data from Kaggle
