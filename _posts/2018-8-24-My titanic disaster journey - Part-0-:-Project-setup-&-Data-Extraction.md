@@ -3,8 +3,6 @@ published: true
 ---
 
 
-***
-
 ### (I)- Setting up the data science project template
 
 It is important to have a project structure where the project components are linked, consistent and well-organized. 
