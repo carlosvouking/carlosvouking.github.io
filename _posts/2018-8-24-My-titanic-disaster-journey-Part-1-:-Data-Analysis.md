@@ -3,10 +3,7 @@ published: true
 ---
 
 
-
-#### End-to-end data science project by screening every hidden insight and feature around the data provided for analysis.
-#### This trip will drive us through the  main stages of a data science project.
-#### From **Data extraction** to **Real time** integration (as API), passing by **data processing**, **data visualization** and **model prediction**.
+The data have been downloaded and stored in the raw folder of the project template. The following steps guide us through their analysis.
 
 ## **(I)- Data Acquisition: Import Titanic datasets**
 ***
