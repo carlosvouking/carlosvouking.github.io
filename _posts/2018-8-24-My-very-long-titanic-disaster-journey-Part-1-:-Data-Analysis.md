@@ -2572,7 +2572,7 @@ pd.crosstab(df.Sex, df.Pclass).plot(kind='bar', rot=0, figsize=(10, 6));
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_92_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_92_0.png)
 
 
 > ### **(F)- Pivot table** : 
@@ -4471,7 +4471,7 @@ df.Age.plot(kind='hist', title='Titanic Passengers\' age distribution', figsize=
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_131_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_131_0.png)
 
 
 **Little Note::** The passengers' age is distributed from 0 to 80 years old. Most of the passengers as we have already seen between 17 and 35 years old.
@@ -4529,7 +4529,7 @@ df[df.Age.notnull()].boxplot('Age', 'Sex', figsize=(9,10));
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_141_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_141_0.png)
 
 
 **Notes::** I noticed a similar age distribution for male and female passengers. Thus, gender is not a good hint to determine which age to use for filling up the missing values.
@@ -4572,7 +4572,7 @@ df[df.Age.notnull()].boxplot('Age', 'Pclass', figsize=(9,10));
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_146_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_146_0.png)
 
 
 **Notes::** I noticed kind of different age distributions for the passengers class. So this may sound like a good option for replacing the missing values in the age column.
@@ -4802,7 +4802,7 @@ df[df.Name.notnull()].boxplot('Age', 'Title', figsize=(9,8));
 ```
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_167_0.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_167_0.png)
 
 
 **Notes on above:** 
@@ -8052,7 +8052,7 @@ sns.jointplot(df.Age, df.Fare,kind='hex', stat_func=None);
 
 
 
-![png](very_long_titanic_trip_files/very_long_titanic_trip_308_1.png)
+![png](/images/very_long_titanic_trip_files/very_long_titanic_trip_308_1.png)
 
 
 #### Now that we have the titanic data processed and saved, the prediction model can be build. Join me on the next page to train our titanic prediction model.
