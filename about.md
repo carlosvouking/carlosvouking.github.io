@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: I am Carlos Vouking
 permalink: /about/
 ---
 
