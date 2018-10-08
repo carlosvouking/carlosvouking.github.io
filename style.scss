@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $white;
+  background: $whit;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -214,6 +214,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
+  font-weight: bold;
   font-size: 16px;
 
   @include mobile {
