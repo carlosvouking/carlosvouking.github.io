@@ -1,4 +1,4 @@
 
 ---
-layout : page.html
+layout : default.html
 ---
