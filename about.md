@@ -5,10 +5,6 @@ permalink: /about/
 published: true
 ---
 
----
-layout : default.html
----
-
 
 Hands deep into Data Science and Predictive Analysis
 
