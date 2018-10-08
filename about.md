@@ -5,7 +5,6 @@ permalink: /about/
 published: true
 ---
 
-
 Hands deep into Data Science and Predictive Analysis
 
  My education in Japan in Business Administration and Information Technology lead me to Belgium few years ago.  My daily work is made up of tasks' automation and Sql Server Reporting Services SSRS. The potential and amount of data that I face daily at work nurtured my interest for Artificial intelligence; Shall I say Deep learning. 
