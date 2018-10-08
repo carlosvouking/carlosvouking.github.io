@@ -255,7 +255,7 @@ sklearn.__version__
 
 > for conda distribution environment: **....'conda update scikit-learn'**
 
-####  Obviously updating the package means restarting the .ipynb kernel and then re-rerunning all the previous notebook cells for the changes to apply.
+####  Obviously updating the package means restarting the .ipynb kernel and then re-running all the previous notebook cells for the changes to apply.
 
 ####  I can move further with building the baseline model so far as the **'DummyClassifer()'** function is available in the current notebook version of scikit-learn.
 
@@ -1539,4 +1539,4 @@ np.round(np.mean(df_result.Actuals == df_result.Predicted), 2)
 
 Remember that we had the same 84 % accuracy for the model persisted previously.
 
-**A challenge** could be the improvment of the machine learning API code. Looking back at it, we are passing the already processed data to the API to generate the predictions. Having the data processing logic itself in the API code, would make the raw data available in the API rather than the processed ones. The machine learning API would then take the raw training data as input and go on with the data processing, pass the processed data to the model to make the ultimate predictions.
+**One challenge** could be the improvment of the machine learning API code. Looking back at it, we are passing the data already processed to the API to generate the predictions. Having the data processing logic itself in the API code, would make the raw data available in the API rather than the processed ones. The machine learning API would then take the raw training data as input and go on with the data processing, pass the processed data to the model to make the ultimate predictions.
