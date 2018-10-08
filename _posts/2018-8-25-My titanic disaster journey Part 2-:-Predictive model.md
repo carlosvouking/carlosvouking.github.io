@@ -1277,17 +1277,7 @@ few_survived_passengers
       <th>IsChild</th>
       <th>Embarked_C</th>
       <th>Embarked_Q</th>
-      <th>...</th>
-      <th>Title_Mr</th>
-      <th>Title_Mrs</th>
-      <th>Title_Officer</th>
-      <th>Title_Sir</th>
-      <th>AgeDenomination_Adult</th>
-      <th>AgeDenomination_Child</th>
-      <th>Bin_Fare_very_cheap</th>
-      <th>Bin_Fare_cheap</th>
-      <th>Bin_Fare_expensive</th>
-      <th>Bin_Fare_very_expensive</th>
+      <th>...</th>     
     </tr>
   </thead>
   <tbody>
@@ -1304,17 +1294,7 @@ few_survived_passengers
       <td>1</td>
       <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
+          </tr>
     <tr>
       <th>2</th>
       <td>3</td>
@@ -1328,17 +1308,7 @@ few_survived_passengers
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
+          </tr>
     <tr>
       <th>3</th>
       <td>4</td>
@@ -1351,17 +1321,7 @@ few_survived_passengers
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
+      <td>...</td>      
     </tr>
     <tr>
       <th>8</th>
@@ -1375,17 +1335,7 @@ few_survived_passengers
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
+      <td>...</td>     
     </tr>
     <tr>
       <th>9</th>
@@ -1399,17 +1349,7 @@ few_survived_passengers
       <td>1</td>
       <td>1</td>
       <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>...</td>     
     </tr>
   </tbody>
 </table>
