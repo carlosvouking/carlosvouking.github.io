@@ -2,10 +2,10 @@
 published: false
 ---
 
-## Nigerian Currency : Naïra bank notes Classification.
+### Nigerian Currency : Naïra bank notes Classification.
 
-- #### Goal: Using the [fast.ai](http://fast.ai) library, we are going to build a model to classifiy Nigerian currency (Naïra) bank notes.
-- #### Dataset : provided by [Kenechi Franklin Dukor](https://kennydukor.github.io/).
+-Goal: Using the [fast.ai](http://fast.ai) library, we are going to build a model to classifiy Nigerian currency (Naïra) bank notes.
+-Dataset : provided by [Kenechi Franklin Dukor](https://kennydukor.github.io/).
 
 
 ```python
