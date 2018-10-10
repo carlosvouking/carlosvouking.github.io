@@ -2,9 +2,7 @@
 published: true
 ---
 
-- #### Goal: Using the [fast.ai](http://fast.ai) library, we are going to build a model to classifiy Nigerian currency (Naïra) bank notes.
-- #### Dataset : provided by [Kenechi Franklin Dukor](https://kennydukor.github.io/).
-
+The goal here will be using the [fast.ai](http://fast.ai) library to build a model to classifiy Nigerian currency (Naïra) bank notes.The dataset was provided by [Kenechi Franklin Dukor](https://kennydukor.github.io/).
 
 ```python
 #Allow automatic reloading
