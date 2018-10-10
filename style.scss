@@ -159,6 +159,7 @@ img {
   border-bottom: 1px solid $lightGray;
   background: black; 
   height: 150px;
+  border-radius: 15px;
 
   @include mobile {
     text-align: center;
