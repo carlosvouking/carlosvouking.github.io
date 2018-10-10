@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 - #### Goal: Using the [fast.ai](http://fast.ai) library, we are going to build a model to classifiy Nigerian currency (Naïra) bank notes.
