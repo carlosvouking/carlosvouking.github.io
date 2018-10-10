@@ -185,7 +185,7 @@ plt.imshow(val_img_0);
 ```
 
 
-![png](naira_classification_files/naira_classification_21_0.png)
+![png](/images/naira_classification_files/naira_classification_21_0.png)
 
 
 
@@ -262,7 +262,7 @@ learn.sched.plot_loss()
 ```
 
 
-![png](naira_classification_files/naira_classification_30_0.png)
+![png](/images/naira_classification_files/naira_classification_30_0.png)
 
 
 
@@ -271,7 +271,7 @@ learn.sched.plot_lr()
 ```
 
 
-![png](naira_classification_files/naira_classification_31_0.png)
+![png](/images/naira_classification_files/naira_classification_31_0.png)
 
 
 
@@ -280,7 +280,7 @@ learn.sched.plot()
 ```
 
 
-![png](naira_classification_files/naira_classification_32_0.png)
+![png](/images/naira_classification_files/naira_classification_32_0.png)
 
 
 
@@ -406,7 +406,7 @@ learn.sched.plot_lr()
 ```
 
 
-![png](naira_classification_files/naira_classification_40_0.png)
+![png](/images/naira_classification_files/naira_classification_40_0.png)
 
 
 
@@ -415,7 +415,7 @@ learn.sched.plot_loss()
 ```
 
 
-![png](naira_classification_files/naira_classification_41_0.png)
+![png](/images/naira_classification_files/naira_classification_41_0.png)
 
 
 
@@ -455,7 +455,7 @@ learn_da.sched.plot()
 ```
 
 
-![png](naira_classification_files/naira_classification_47_0.png)
+![png](/images/naira_classification_files/naira_classification_47_0.png)
 
 
 
@@ -464,7 +464,7 @@ learn_tf.sched.plot_lr()
 ```
 
 
-![png](naira_classification_files/naira_classification_48_0.png)
+![png](/images/naira_classification_files/naira_classification_48_0.png)
 
 
 
@@ -987,7 +987,7 @@ plot_val_with_title(most_by_correct(0, True), "N10: Most Correctly classified 10
 
 
 
-![png](naira_classification_files/naira_classification_83_1.png)
+![png](/images/naira_classification_files/naira_classification_83_1.png)
 
 
 
@@ -999,7 +999,7 @@ plot_val_with_title(most_by_correct(1, True), "N100: Most Correctly classified 1
 
 
 
-![png](naira_classification_files/naira_classification_84_1.png)
+![png](/images/naira_classification_files/naira_classification_84_1.png)
 
 
 
@@ -1011,7 +1011,7 @@ plot_val_with_title(most_by_correct(5, True), "N5: Most correctly classified 5 N
 
 
 
-![png](naira_classification_files/naira_classification_85_1.png)
+![png](/images/naira_classification_files/naira_classification_85_1.png)
 
 
 
@@ -1023,7 +1023,7 @@ plot_val_with_title(most_by_correct(7, True), "N500: Most correctly classified 5
 
 
 
-![png](naira_classification_files/naira_classification_86_1.png)
+![png](/images/naira_classification_files/naira_classification_86_1.png)
 
 
 
@@ -1035,4 +1035,4 @@ plot_val_with_title(most_by_correct(7, False), "N500: INCORRECTLY classified 500
 
 
 
-![png](naira_classification_files/naira_classification_87_1.png)
+![png](/images/naira_classification_files/naira_classification_87_1.png)
