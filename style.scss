@@ -157,6 +157,7 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  bacground: black;  
 
   @include mobile {
     text-align: center;
@@ -192,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: bold;
@@ -216,7 +217,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-weight: bold;
-  color: black;
+  color: orange;
   font-size: 16px;
 
   @include mobile {
