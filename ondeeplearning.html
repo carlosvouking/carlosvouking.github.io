@@ -1,16 +1,16 @@
 
 
-<div class="dl_posts">
-  {% for dl_post in site.dl_posts %}
-    <article class="dl_post">
+<div class="posts">
+  {% for dl_post in site.posts %}
+    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ dl_post.url }}">{{ dl_post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ dl_post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ dl_post.excerpt }}
+        {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ dl_post.url }}" class="read-more">More...</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More...</a>
     </article>
   {% endfor %}
 </div>
