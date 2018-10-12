@@ -17,6 +17,10 @@ Heartful thanks to [deeplearning.ai](deeplearning.ai) and specially to [fasta.ai
 
 [infos@carlosvouking.com](mailto:infos@carlosvouking.com)
 
+### Hobbies.
+
+Travelling, shopping, stepping on salsa dance floors.
+
 
 ### Tell me where the money is.
 
