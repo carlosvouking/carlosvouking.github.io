@@ -28,6 +28,6 @@ Travelling, shopping, stepping on salsa dance floors.
 
 
 
-### - Tell me where the money is.
+### - Tell me also where the money is.
 
 I am building stuffs, then just show me where the money is !
