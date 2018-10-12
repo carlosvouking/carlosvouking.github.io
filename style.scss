@@ -267,28 +267,7 @@ nav {
     font-size: 20px;
     font-style: italic;
   }
-  
-  
-.dl_posts > .dl_post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.dl_posts > .dl_post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-  
-.dl_post {
-  blockquote {
-    margin: 1.6em .5em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 20px;
-    font-style: italic;
-  }
-  
+ 
   
   .comments {
     margin-top: 10px;
