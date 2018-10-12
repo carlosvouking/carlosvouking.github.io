@@ -1,2 +1,0 @@
-
-This folder holds deep learning posts to display on the 'On DL' tab page.
