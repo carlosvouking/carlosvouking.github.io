@@ -19,15 +19,15 @@ Heartful thanks to [deeplearning.ai](deeplearning.ai) and specially to [fasta.ai
 
 ### > Coding activities:
 
-I am currently taking many courses in [Pluralsight](pluralsight.com), [Udemy](udemy.com) and [Fasta.ai](fast.ai).
+I am currently taking many courses in [Pluralsight](https://pluralsight.com), [Udemy](http://udemy.com) and [Fasta.ai](www.fast.ai).
 
 
-### - Hobbies:
+### > Hobbies:
 
 Travelling, shopping, stepping on salsa dance floors.
 
 
 
-### - Tell me also where the money is:
+### > Tell me also where the money is:
 
 I am building stuffs, then just show me where the money is !
