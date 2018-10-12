@@ -13,21 +13,21 @@ Heartful thanks to [deeplearning.ai](deeplearning.ai) and specially to [fasta.ai
 
 
 
-### Reaching out to me ??
+### > Reaching out to me ??
 
 [infos@carlosvouking.com](mailto:infos@carlosvouking.com)
 
-### Coding activities.
+### > Coding activities.
 
 I am currently taking many courses in [Pluralsight](pluralsight.com), [Udemy](udemy.com) and [Fasta.ai](fast.ai).
 
 
-### Hobbies.
+### - Hobbies.
 
 Travelling, shopping, stepping on salsa dance floors.
 
 
 
-### Tell me where the money is.
+### - Tell me where the money is.
 
 I am building stuffs, then just show me where the money is !
