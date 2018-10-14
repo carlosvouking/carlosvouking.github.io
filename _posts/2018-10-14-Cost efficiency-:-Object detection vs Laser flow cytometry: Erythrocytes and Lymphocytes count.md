@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Problem: detecting and counting blood cells components.
+### Problem: detecting and counting blood cells components.
  
  This comparison study aims at showing the evidence of deep neural network object detection practices against expensive and complex methods such as [Laser flow cytometry](https://en.wikipedia.org/wiki/Flow_cytometry), in analysing blood's components such as red blood cells (erythorcytes) and white blood cells. As we may know, the number of these cells could be deterministic of a specific problem or malfunction of the whole body system.
 
