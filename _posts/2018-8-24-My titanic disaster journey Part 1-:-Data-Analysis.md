@@ -3,7 +3,7 @@ published: true
 ---
 
 
-The data have been downloaded and stored in the raw folder of the project template. The following steps guide us through their analysis.
+The data have been downloaded and stored in the raw folder of the project template. The following steps guide us through data analysis.
 
 ## **(I)- Data Acquisition: Import Titanic datasets**
 ***
