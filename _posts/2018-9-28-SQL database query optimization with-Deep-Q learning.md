@@ -21,7 +21,7 @@ there will be cases and this is more often, where instead of retrieving all the 
 3/- Use more 'joins' instead than 'correlated subqueries':
 In some when writing sql queries, the results of some parts of code depend on some other parts of the code. Correlated queries are just that. They depend on what is called outer queries. To illustrate, the following query: 
 
-![sql_opt1.PNG]({{site.baseurl}}/_posts/sql_opt1.PNG)
+![png](/images/sql_opt1.png)
 
                      
                      
