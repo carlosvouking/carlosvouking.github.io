@@ -17,8 +17,6 @@ This is by far the most used and the best way to better SQL queries performance.
 
 ![png](/images/sql_opt1.PNG)
 
-![]({{site.baseurl}}//images/sql_opt1.PNG)
-
 the above request for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need:
 
 ![png](/images/sql_opt2.PNG)  
