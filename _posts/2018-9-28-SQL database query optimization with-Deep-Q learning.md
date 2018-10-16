@@ -13,7 +13,7 @@ This is by far the most used and the best way to better SQL queries performance.
 
  
 -**Retrieving ONLY needed data:**
-   * _Only the needed columns_:
+   * **_Only the needed columns_**:
 
 ![png](/images/sql_opt1.PNG)
 
@@ -22,7 +22,7 @@ the above request for instance is used to retrieve all records and all columns o
 ![png](/images/sql_opt2.PNG)  
 
 We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
-   * _Only the needed rows_:
+   ***_Only the needed rows_**:
    
 ![png](/images/sql_opt3.PNG)  
 
@@ -35,7 +35,7 @@ In some when writing sql queries, the results of some parts of code depend on so
 
 ![png](/images/sql_opt4.PNG)                  
                       
-tells the sql server to retrieve the list of employees who belong to the IT department. Because the correlated subquery (the one within brackets) is executed for every record of the outer query, it will take more time to return the results (very inefficient). A better option would be to use JOINS. The intuition behind 'joins' is simple. Let us reconsider the previous query; In case of 5000 employees in the Employee table, using a join like this: 
+tells the sql server to retrieve the list of employees who belong to the IT department. Because the correlated subquery (the one within brackets) is executed for every record of the outer query, it will take more time to return the results (very inefficient). A better option would be to use **JOINS**. The intuition behind 'joins' is simple. Let us reconsider the previous query; In case of 5000 employees in the Employee table, using a join like this: 
 
 ![png](/images/sql_opt5.PNG)                         
                       
