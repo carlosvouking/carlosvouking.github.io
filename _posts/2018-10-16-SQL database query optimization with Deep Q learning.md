@@ -11,7 +11,7 @@ There are a number of standard tuning tricks and techniques for query execution 
  
 2/- Retrieving ONLY needed data: 
    * Needed columns:
-the 'SELECT * FROM [Persons] WHERE salary<6000' for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need: 'SELECT firt_name, last_name, role WHERE salary<6000'. We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
+the **'SELECT  FROM [Persons] WHERE salary<6000'** for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need: **'SELECT firt_name, last_name, role WHERE salary<6000'**. We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
    * Needed rows:
 there will be cases and this is more often, where instead of retrieving all the rows or records in a specific table, we would like to limit the read data to a specific number of rows. the query 'SELECT name, address, age FROM Employee LIMIT 50' is returning 50 lines from the table Employee. Rows limitation in query execution has a tremendous effect in database querying optimization. 
 
@@ -34,6 +34,7 @@ The following query:
 aims at returning all the employees which contain 'jo' in their first name. The % character at the start of the 'LIKE' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
                      'SELECT * FROM Employee WHERE first_name LIKE 'jo%';'
 tells the server to read all the employees with first names starting with 'jo'.
+
 
 
 The above techniques are old as SQL is and they do work effectively in helping optimizing queries' executions. However, in this talk we would like to cover a strictly different approach for query optimization. we will talk about an artificially intelligent type of machine learning called Reinforcement learning.
