@@ -65,4 +65,4 @@ The above techniques are old as SQL is, and they do work effectively in helping 
 
 
 ### Optimization with Reinforcement learning: Deep Q Learning:
-Normally speaking, **Reinforcement learning** was not considered as part of the multiple SQL query optimization techniques
+Normally speaking, **Reinforcement learning** was not considered as part of the multiple SQL query optimization techniques. A recently published ![]({{site.baseurl}}/https://arxiv.org/pdf/1808.03196.pdf) 
