@@ -19,7 +19,7 @@ Heartful thanks to [deeplearning.ai](http://deeplearning.ai) and specially to [f
 
 ### > Coding activities:
 
-I am currently taking many courses in [Pluralsight](http://pluralsight.com), [Udemy](http://udemy.com) and [fast.ai](http://fast.ai).
+I am also currently following courses in [Pluralsight](http://pluralsight.com) and [Udemy](http://udemy.com).
 
 
 ### > Hobbies:
