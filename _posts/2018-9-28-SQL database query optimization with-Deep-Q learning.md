@@ -3,16 +3,16 @@ published: true
 ---
 
 
-Usually,the most efficient way to interact with databases is by addressing specific queries. Standard operations (CRUD) on databases are usually done through processes called SQL (Structured queries language) queries. 
+Usually,the most efficient way to interact with databases is by addressing specific queries. Standard operations (**CRUD**) on databases are usually done through processes called **SQL** (Structured queries language) queries. 
  
-I am talking here about relational databases (RDBMS) where records can be created, read, updated, and deleted (CRUD). Each single query adressed to a SQL server database requires a certain amount of time before the response is returned from the server. It is trivial that for each query that we write to the database, we want to make it the most computational efficient way. 
+I am talking here about relational databases (**RDBMS**) where records can be created, read, updated, and deleted (CRUD). Each single query adressed to a SQL server database requires a certain amount of time before the response is returned from the server. It is trivial that for each query that we write to the database, we want to make it the most computational efficient way. 
 There are a number of standard tuning tricks and techniques for query execution processes to make them efficient. Among others:
 
-**1/- Proper creation of indexes**: 
+-**Proper creation of indexes**: 
 This is by far the most used and the best way to better SQL queries performance. Queries without indexes at all are more likely to be slow. Database indexing is actually a development task and the sensitiveinformation behind indexing resides in the way the data querying happens. 
 
  
-**2/- Retrieving ONLY needed data:**
+-**Retrieving ONLY needed data:**
    * Only the needed columns:
 the following request
 
@@ -32,7 +32,7 @@ The query
 is returning 50 lines from the table Employee. Rows limitation in query execution has a tremendous effect in database querying optimization. 
 
      
-**3/- Use more 'joins' instead than 'correlated subqueries'**:
+-**Use more 'joins' instead than 'correlated subqueries'**:
 In some when writing sql queries, the results of some parts of code depend on some other parts of the code. Correlated queries are just that. They depend on what is called outer queries. To illustrate, the following query: 
 
 ![png](/images/sql_opt4.PNG)                  
@@ -44,12 +44,12 @@ tells the sql server to retrieve the list of employees who belong to the IT depa
 might seem more efficient than applying the correlated subquery to find the employees who belong to the IT department. The correlated subquery will have to run 5000 times before the results are read. Although correlated queries might be a better choice sometimes, we may want to avoid using them when attempting to retrieve many rows.       
 
 
-**4/- No use of Wildcard characters at the start of 'LIKE' clause**:  	
+-**No use of Wildcard characters at the start of 'LIKE' clause**:  	
 The following query:
 
 ![png](/images/sql_opt6.PNG)                     
                      
-aims at returning all the employees which contain 'jo' in their first name. The % character at the start of the 'LIKE' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
+aims at returning all the employees which contain 'jo' in their first name. The **%** character at the start of the 'LIKE' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
 
 ![png](/images/sql_opt7.PNG)   
                      
