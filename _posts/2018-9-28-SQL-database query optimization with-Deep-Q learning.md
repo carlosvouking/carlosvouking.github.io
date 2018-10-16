@@ -62,4 +62,6 @@ tells the server to read all the employees with first names starting with 'jo'.
 
 The above techniques are old as SQL is, and they do work effectively in helping optimizing queries' executions. However, in this talk we would like to cover a strictly different approach for sql database query optimization. It is going to be about an artificially intelligent type of machine learning called Reinforcement learning.
 
+
+
 ### Optimization with Reinforcement learning: Deep Q Learning:
