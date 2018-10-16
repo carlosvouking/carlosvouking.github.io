@@ -21,8 +21,7 @@ there will be cases and this is more often, where instead of retrieving all the 
 **3/- Use more 'joins' instead than 'correlated subqueries'**:
 In some when writing sql queries, the results of some parts of code depend on some other parts of the code. Correlated queries are just that. They depend on what is called outer queries. To illustrate, the following query: 
 
-![png](/images/sql_opt1.PNG)         
-                 
+![png](/images/sql_opt1.PNG)                  
                       
 tells the sql server to retrieve the list of employees who belong to the IT department. Because the correlated subquery (the one within brackets) is executed for every record of the outer query, it will take more time to return the results (very inefficient). A better option would be to use JOINS. The intuition behind 'joins' is simple. Let us reconsider the previous query; In case of 5000 employees in the Employee table, using a join like this: 
                      'SELECT DISTINCT Employee.employee_id FROM Employees
