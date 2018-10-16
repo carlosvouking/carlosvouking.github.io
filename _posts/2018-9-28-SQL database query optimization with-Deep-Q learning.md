@@ -38,16 +38,21 @@ In some when writing sql queries, the results of some parts of code depend on so
 ![png](/images/sql_opt4.PNG)                  
                       
 tells the sql server to retrieve the list of employees who belong to the IT department. Because the correlated subquery (the one within brackets) is executed for every record of the outer query, it will take more time to return the results (very inefficient). A better option would be to use JOINS. The intuition behind 'joins' is simple. Let us reconsider the previous query; In case of 5000 employees in the Employee table, using a join like this: 
-                     'SELECT DISTINCT Employee.employee_id FROM Employees
-                      INNER JOIN itemployee ON Employees.employee_id = itemployee.employee_id;'
+
+![png](/images/sql_opt5.PNG)                         
+                      
 might seem more efficient than applying the correlated subquery to find the employees who belong to the IT department. The correlated subquery will have to run 5000 times before the results are read. Although correlated queries might be a better choice sometimes, we may want to avoid using them when attempting to retrieve many rows.       
 
 
 **4/- No use of Wildcard characters at the start of 'LIKE' clause**:  	
 The following query:
-                     'SELECT * FROM Employee WHERE first_name LIKE '%jo%';'
+
+![png](/images/sql_opt6.PNG)                     
+                     
 aims at returning all the employees which contain 'jo' in their first name. The % character at the start of the 'LIKE' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
-                     'SELECT * FROM Employee WHERE first_name LIKE 'jo%';'
+
+![png](/images/sql_opt7.PNG)   
+                     
 tells the server to read all the employees with first names starting with 'jo'.
 
 
