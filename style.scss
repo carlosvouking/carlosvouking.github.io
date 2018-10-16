@@ -158,12 +158,12 @@ img {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
   background: black;
-  width: 100%;
-  
+  width: 100%;  
   border-radius: 15px;
 
   @include mobile {
     text-align: center;
+    height: 100%
   }
 }
 
