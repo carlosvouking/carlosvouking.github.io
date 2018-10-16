@@ -14,12 +14,12 @@ This is by far the most used and the best way to better SQL queries performance.
 
  
 2- **Retrieving ONLY needed data:**
-    **- restrict columns:**  
+    **restrict columns:**  
 ![png](/images/sql_opt1.PNG)
 the above request for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need:
 ![png](/images/sql_opt2.PNG)  
 We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
-    **- restrict rows**:   
+    **restrict rows**:   
 ![png](/images/sql_opt3.PNG)  
 there will be cases and this is more often, where instead of retrieving all the rows or records in a specific table, we would like to limit the read data to a specific number of rows. 
 The query is returning 50 lines from the table Employee. Rows limitation in query execution has a tremendous effect in database querying optimization. 
