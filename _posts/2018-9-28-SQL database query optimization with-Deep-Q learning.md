@@ -22,7 +22,7 @@ the above request for instance is used to retrieve all records and all columns o
 ![png](/images/sql_opt2.PNG)  
 
 We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
-   * **restrict  rows**:
+   * **restrict rows**:
    
 ![png](/images/sql_opt3.PNG)  
 
