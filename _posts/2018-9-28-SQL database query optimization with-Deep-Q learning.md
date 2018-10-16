@@ -4,13 +4,12 @@ published: true
 
 
 
-Usually, the most efficient way to interact with databases is by addressing specific queries. Standard operations (**CRUD**) on databases are usually done through processes called **SQL** (Structured queries language) queries. 
+Usually, the most efficient way to interact with databases is by addressing specific queries. Standard operations (**CRUD**) on databases are usually done through processes called **SQL** (Structured Query Language) queries. 
  
 I am talking here about relational databases (**RDBMS**) where records can be created, read, updated, and deleted (CRUD). Each single query adressed to a SQL server database requires a certain amount of time before the response is returned from the server. It is trivial that for each query that we write to the database, we want to make it the most computational efficient way. 
 There are a number of standard tuning tricks and techniques for query execution processes to make them efficient. Among others:
 
 - **Proper creation of indexes**: 
-
 This is by far the most used and the best way to better SQL queries performance. Queries without indexes at all are more likely to be slow. Database indexing is actually a development task and the sensitiveinformation behind indexing resides in the way the data querying happens. 
 
  
