@@ -36,7 +36,7 @@ might seem more efficient than applying the correlated subquery to find the empl
 - **No use of Wildcard characters at the start of 'LIKE' clause**:  	
 The following query:
 ![png](/images/sql_opt6.PNG)                   
-aims at returning all the employees which contain 'jo' in their first name. The **%** character at the start of the 'LIKE' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
+aims at returning all the employees which contain 'jo' in their first name. The **%** character at the start of the '**LIKE**' clause is inhibiting the ability of the SQL server to use indexing (in case there is). The problem here is that the server has no information about the beginning of the name column, it would have again to scan through each and every row in the table. This may lead to longer query execution. To reduce the execution time, use the % character at the end of the 'LIKE' clause as the following
 ![png](/images/sql_opt7.PNG)           
 tells the server to read all the employees with first names starting with 'jo'.
 
