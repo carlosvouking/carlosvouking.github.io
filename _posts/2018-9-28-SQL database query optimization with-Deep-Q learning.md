@@ -13,7 +13,7 @@ This is by far the most used and the best way to better SQL queries performance.
 
  
 -**Retrieving ONLY needed data:**
-   * **_Only the needed columns_**:
+   * **restrict columns**: 
 
 ![png](/images/sql_opt1.PNG)
 
@@ -22,7 +22,7 @@ the above request for instance is used to retrieve all records and all columns o
 ![png](/images/sql_opt2.PNG)  
 
 We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
-   ***_Only the needed rows_**:
+   * **restrict  rows**:
    
 ![png](/images/sql_opt3.PNG)  
 
