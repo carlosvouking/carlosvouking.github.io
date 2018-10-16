@@ -12,9 +12,13 @@ There are a number of standard tuning tricks and techniques for query execution 
 
  
 **2/- Retrieving ONLY needed data:**
-   * Needed columns:
-the **'SELECT  FROM [Persons] WHERE salary<6000'** for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need: **'SELECT firt_name, last_name, role WHERE salary<6000'**. We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
-   * Needed rows:
+   * Only the needed columns:
+the following request
+
+![png](/images/sql_opt4.PNG)     
+
+for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need: **'SELECT firt_name, last_name, role WHERE salary<6000'**. We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.   
+   * Only the needed rows:
 there will be cases and this is more often, where instead of retrieving all the rows or records in a specific table, we would like to limit the read data to a specific number of rows. the query 'SELECT name, address, age FROM Employee LIMIT 50' is returning 50 lines from the table Employee. Rows limitation in query execution has a tremendous effect in database querying optimization. 
 
      
