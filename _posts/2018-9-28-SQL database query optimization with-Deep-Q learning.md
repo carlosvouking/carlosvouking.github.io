@@ -10,7 +10,6 @@ I am talking here about relational databases (**RDBMS**) where records can be cr
 There are a number of standard tuning tricks and techniques for query execution processes to make them efficient. Among others:
 
 **1- Query indexing**: 
-
 This is by far the most used and the best way to better SQL queries performance. Queries without indexes at all are more likely to be slow. Database indexing is actually a development task and the sensitiveinformation behind indexing resides in the way the data querying happens. 
 
  
@@ -19,6 +18,7 @@ This is by far the most used and the best way to better SQL queries performance.
 -**restrict columns:**
 
 ![png](/images/sql_opt1.PNG)
+
 the above request for instance is used to retrieve all records and all columns of a specific table (here Persons) with a salary less than 6000. Most of the times, we just really need specific columns, and it is more efficient to retrieve just what we need:
 ![png](/images/sql_opt2.PNG)  
 We are able here to read only the first_name, last_name and role for persons with salary less than 6000. This surely saves some computation time.  
@@ -26,6 +26,7 @@ We are able here to read only the first_name, last_name and role for persons wit
 -**restrict rows:**  
 
 ![png](/images/sql_opt3.PNG)  
+
 there will be cases and this is more often, where instead of retrieving all the rows or records in a specific table, we would like to limit the read data to a specific number of rows. 
 The query is returning 50 lines from the table Employee. Rows limitation in query execution has a tremendous effect in database querying optimization. 
 
