@@ -29,7 +29,7 @@ We are able here to read only the first_name, last_name and role for persons wit
 
 -**restricting rows:**  
 
-![png](/images/sql_opt3.png)  
+![png](/images/sql_opt3.PNG)  
 
 there will be cases and this is more often, where instead of retrieving all the rows or records in a specific table, we would like to limit the read data to a specific number of rows. 
 The query is returning 50 lines from the table Employee. Rows limitation in query execution has a sensitive effect in database querying optimization. 
