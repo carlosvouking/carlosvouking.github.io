@@ -45,6 +45,15 @@ Now make sure the **'Customize Ribbon'** on the top right has the value '**Main 
 
 
 
+It remains to check the developer option and hit OK. 
+
+
+
+
+![png](/images/excel_5_.PNG)
+
+
+
 
 
 
