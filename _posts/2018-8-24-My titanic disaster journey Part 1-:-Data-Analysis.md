@@ -17,8 +17,7 @@ import numpy as np
 ```
 
 
-
-## I set the path to the raw data (as downloaded from Kaggle) like this:
+I set the path to the raw data (as downloaded from Kaggle) like this:
 #### raw_data_path = os.path.join(os.path.pardir, 'data', 'raw')
 #### train_file_path = os.path.join(raw_data_path, 'train.csv')
 #### test_file_path = os.path.join(raw_data_path, 'test.csv')
@@ -26,14 +25,14 @@ import numpy as np
 
 
 
-## Then I convert the files into dataframes like this:
+Then I convert the files into dataframes like this:
 #### train_df = pd.read_csv(train_file_path, index_col='PassengerId')
 #### test_df = pd.read_csv(test_file_path, index_col='PassengerId')
 
 
 
 
-## Let's just make sure the files have been turned into dataframes.
+Let's just make sure the files have been turned into dataframes.
 type(train_df), type(test_df)
 
 
