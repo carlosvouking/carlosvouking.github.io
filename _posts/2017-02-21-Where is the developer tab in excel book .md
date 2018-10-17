@@ -11,34 +11,18 @@ I just decided to write it down as mark of my effort to find this out. Then will
 The developer tab by default, does not appear on the tab area of excel books as shown below:
 
 
-
-![]({{site.baseurl}}//images/excel_1_.PNG)
-
-
-
-
-
-
-
-
 ![png](/images/excel_1_.PNG)
-
-
-
-
-
-
 
 
 
 We need to explicetely add it. If you go to the menu bar and hit **File ---> Options**, you will be  presented with the following:
 
 
-![]({{site.baseurl}}//images/excel_2.PNG)
+![png](/images/excel_2.PNG)
 
 
 
 Then hit **Customize Ribbon** on the left vertical pane to show the following view:
 
 
-![]({{site.baseurl}}//images/excel_3_.PNG)
+![png](/images/excel_3_.PNG)
