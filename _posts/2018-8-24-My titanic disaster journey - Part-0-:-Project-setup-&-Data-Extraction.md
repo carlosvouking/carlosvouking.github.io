@@ -15,12 +15,6 @@ To install the **[coockiecutter](https://drivendata.github.io/cookiecutter-data-
 After following the instructions through which you will be giving a name to your project (mine is called **'thetitanic'**), you end up with such a structure ready to hold the data and components of the project.
 
 
-```python
-%%html 
-<img src='basic_cookiecutter.png'>
-```
-
-
 <img src='/images/basic_cookiecutter.png'>
 
 
