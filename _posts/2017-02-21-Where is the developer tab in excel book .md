@@ -45,7 +45,7 @@ Now make sure the **'Customize Ribbon'** on the top right has the value '**Main 
 
 
 
-It remains to check the developer option and hit OK. 
+It remains to check the developer option and hit OK. And **voilà!** we have the developer tab in the menu.
 
 
 
