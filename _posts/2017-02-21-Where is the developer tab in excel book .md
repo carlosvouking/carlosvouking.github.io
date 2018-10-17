@@ -8,4 +8,4 @@ Hey, I felt the need to bring this quick one out. I spent 10 minutes figuring ou
 I just decided to write it down as mark of my effort to find this out. Then will I forget it again ? NO
 
 ### Where is the developer tab located ?
-The **developer tab**
+the developer tab by default does not appear on the tab area of excel books.
