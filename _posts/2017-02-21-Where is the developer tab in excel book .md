@@ -57,8 +57,3 @@ It remains to check the developer option and hit OK. And **voilà!** we have the
 
 
 
-
-[images/excel_5_.png](images/excel_5_.png)
-
-
-
