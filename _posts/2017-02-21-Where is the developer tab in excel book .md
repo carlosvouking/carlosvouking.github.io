@@ -14,6 +14,4 @@ The developer tab by default, does not appear on the tab area of excel books as 
 
 We need to explicetely add it. If you go to the menu bar and hit **File ---> Options**, you will be  presented with the following:
 
-![]({{site.baseurl}}//images/excel_2_.PNG)
-
-
+![]({{site.baseurl}}//images/excel_2.PNG)
