@@ -25,11 +25,11 @@ import numpy as np
 
 
 
-```python
-# Then I convert the files into dataframes like this:
-train_df = pd.read_csv(train_file_path, index_col='PassengerId')
-test_df = pd.read_csv(test_file_path, index_col='PassengerId')
-```
+
+## Then I convert the files into dataframes like this:
+#### train_df = pd.read_csv(train_file_path, index_col='PassengerId')
+#### test_df = pd.read_csv(test_file_path, index_col='PassengerId')
+
 
 
 ```python
