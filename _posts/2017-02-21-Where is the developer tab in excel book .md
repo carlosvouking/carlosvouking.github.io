@@ -41,7 +41,7 @@ Now make sure the **'Customize Ribbon'** on the top right has the value '**Main 
 
 
 
-![png](/images/excel_3_.PNG)
+![png](/images/excel_4_.PNG)
 
 
 
