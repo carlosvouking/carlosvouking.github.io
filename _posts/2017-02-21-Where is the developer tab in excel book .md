@@ -23,3 +23,13 @@ We need to explicetely add it. If you go to the menu bar and hit **File ---> Opt
 
 
 
+Then hit **Customize Ribbon** on the left vertical pane to show the following view:
+
+
+![]({{site.baseurl}}//images/excel_3_.PNG)
+
+
+
+
+
+
