@@ -45,7 +45,7 @@ type(train_df), type(test_df)
 
 ### **1*- Exploring, analysing and Processing Data (EDA).**
   - EDA is usually the next step in a Data science project after the raw data are imported.
-  - it makes use of several techniques to some interesting insights and patterns about the titanic dataset.
+  - it makes use of several techniques to find interesting insights and patterns on the titanic dataset.
 
 > ### **(A)- Basic structure of the dataframes**
 
