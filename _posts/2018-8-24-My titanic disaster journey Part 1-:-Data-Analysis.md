@@ -17,12 +17,12 @@ import numpy as np
 ```
 
 
-```python
+
 # I set the path to the raw data (as downloaded from Kaggle) like this:
 raw_data_path = os.path.join(os.path.pardir, 'data', 'raw')
 train_file_path = os.path.join(raw_data_path, 'train.csv')
 test_file_path = os.path.join(raw_data_path, 'test.csv')
-```
+
 
 
 ```python
