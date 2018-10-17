@@ -9,4 +9,4 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 ## I/- nvidia-smi:
 
-![]({{site.baseurl}}/images/nvidia-smi.png)
+![]({{site.baseurl}}/images/nvidia-smi_.png)
