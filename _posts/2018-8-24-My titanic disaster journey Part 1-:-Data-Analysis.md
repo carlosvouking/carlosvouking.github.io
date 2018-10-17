@@ -32,12 +32,9 @@ import numpy as np
 
 
 
-```python
-# Let's just make sure the files have been turned into dataframes.
+
+## Let's just make sure the files have been turned into dataframes.
 type(train_df), type(test_df)
-```
-
-
 
 
     (pandas.core.frame.DataFrame, pandas.core.frame.DataFrame)
