@@ -8,6 +8,12 @@ Hey, I felt the need to bring this quick one out. I spent 10 minutes figuring ou
 I just decided to write it down as mark of my effort to find this out. Then will I forget it again ? NO
 
 ### Where is the developer tab located ?
-The developer tab by default, does not appear on the tab area of excel books as shown below.
+The developer tab by default, does not appear on the tab area of excel books as shown below:
 
 ![]({{site.baseurl}}//images/excel_1_.PNG)
+
+We need to explicetely add it. If you go to the menu bar and hit **File ---> Options**, you will be  presented with the following:
+
+![]({{site.baseurl}}//images/excel_2_.PNG)
+
+
