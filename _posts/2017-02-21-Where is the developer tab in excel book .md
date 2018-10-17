@@ -18,7 +18,7 @@ The developer tab by default, does not appear on the tab area of excel books as 
 
 
 
-We need to explicetely add it. If you go to the menu bar and hit **File ---> Options**, you will be  presented with the following:
+We need to explicetely add it. If you go to the menu bar and hit **'File ---> Options'**, you will be  presented with the following:
 
 
 
@@ -28,8 +28,24 @@ We need to explicetely add it. If you go to the menu bar and hit **File ---> Opt
 
 
 
-Then hit **Customize Ribbon** on the left vertical pane to show the following view:
+Then hit **'Customize Ribbon'** on the left vertical pane to show the following view:
 
 
 
 ![png](/images/excel_3_.PNG)
+
+
+
+
+Now make sure the **'Customize Ribbon'** on the top right has the value '**Main Tabs**' attached to its combo box.
+
+
+
+![png](/images/excel_3_.PNG)
+
+
+
+
+
+
+
