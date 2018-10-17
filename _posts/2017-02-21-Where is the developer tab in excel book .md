@@ -11,7 +11,19 @@ I just decided to write it down as mark of my effort to find this out. Then will
 The developer tab by default, does not appear on the tab area of excel books as shown below:
 
 
+
 ![]({{site.baseurl}}//images/excel_1_.PNG)
+
+
+
+
+
+
+
+
+![png](/images/sql_opt1.PNG)
+
+
 
 
 
@@ -27,9 +39,3 @@ Then hit **Customize Ribbon** on the left vertical pane to show the following vi
 
 
 ![]({{site.baseurl}}//images/excel_3_.PNG)
-
-
-
-
-
-
