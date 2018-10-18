@@ -13,10 +13,14 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 ![]({{site.baseurl}}/images/nvidia-smi_.png)
 
 
+
+
 ## 2/- nvidia-smi -L or nvidia-smi --list-gpus
 * display a list of GPUs connected to the system.
        
 ![]({{site.baseurl}}/images/nvidia-smi_1.png)
+
+
 
 
 ## 3/- nvidia-smi -q or nvidia-smi --query
