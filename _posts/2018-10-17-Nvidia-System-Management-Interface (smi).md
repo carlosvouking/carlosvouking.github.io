@@ -10,7 +10,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 ## 1/- nvidia-smi:
 * display GPU general info in a tabular form.
 
-![]({{site.baseurl}}/images/nvidia-smi_.png)
+![]({{site.baseurl}}/images/nvidia-smi_0.png)
 
 
 
