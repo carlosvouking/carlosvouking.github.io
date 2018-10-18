@@ -2,16 +2,16 @@
 - ## **How to locally clone a repository in Github ?**
 This simply to create a copy of the repository on the local system and allow bidirectional communication or sync between the local copy and the remote repository on github. It happens in few simple steps:
 
-#### a/- Connect to github and browse to the specific repository page and hit the 'clone or download' button.
+#### - Connect to github and browse to the specific repository page and hit the 'clone or download' button.
 
 
 
-![]({{site.baseurl}}//images/cloning_1_.PNG)
+![]({{site.baseurl}}/images/cloning_1_.PNG)
 
 
 
 
-#### b/- Connect to github and browse to the specific repository page.
+#### - Connect to github and browse to the specific repository page.
 
 
 
