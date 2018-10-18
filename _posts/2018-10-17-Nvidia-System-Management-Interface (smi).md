@@ -19,7 +19,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 ![]({{site.baseurl}}/images/nvidia-smi_1.png)
 
 
-## 3/- nvidia-smi -L or nvidia-smi --list-gpus
+## 3/- nvidia-smi -q or nvidia-smi --query
 > display GPU or unit information.
        
 ![]({{site.baseurl}}/images/nvidia-smi_2.png)
