@@ -116,6 +116,7 @@ p {
 
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
+  text-decoration: underline;
   font-size: 16px;
   font-weight: 700;
   margin-top: 0;
