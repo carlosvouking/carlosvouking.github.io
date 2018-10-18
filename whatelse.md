@@ -7,12 +7,16 @@ This simply to create a copy of the repository on the local system and allow bid
 
 
 
+
+
+
 ![]({{site.baseurl}}/images/cloning_1_.PNG)
 
 
 
 
+
+
+
+
 #### - Connect to github and browse to the specific repository page.
-
-
-
