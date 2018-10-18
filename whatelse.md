@@ -44,7 +44,7 @@ This simply to create a copy of the repository on the local system and allow bid
 
 
 
-A local clone or copy of your directory would have been created in the directory chosed earlier.
+A local clone or copy of your directory is normally created in the directory chosed earlier.
 
 
 
