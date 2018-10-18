@@ -7,12 +7,19 @@ I have been looking for a way to control my system GPU behaviour when involved i
 
 Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia-management-library-nvml/),this talk is an attempt to provide the commands mostly used to track and control the GPU parameters.
 
-## I/- nvidia-smi:
+## 1/- nvidia-smi:
+      display GPU general info in a tabular form.
 
 ![]({{site.baseurl}}/images/nvidia-smi_.png)
 
 
-## I/- nvidia-smi -L or nvidia-smi --list-gpus
+## 2/- nvidia-smi -L or nvidia-smi --list-gpus
        display a list of GPUs connected to the system.
        
-![]({{site.baseurl}}/images/nvidia-smi_1.png)       
+![]({{site.baseurl}}/images/nvidia-smi_1.png)
+
+
+## 3/- nvidia-smi -L or nvidia-smi --list-gpus
+       display a list of GPUs connected to the system.
+       
+![]({{site.baseurl}}/images/nvidia-smi_1.
