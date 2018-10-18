@@ -1,6 +1,6 @@
 
 
-# **How to locally clone a repository in Github ?**
+# **How to locally clone a repository from Github ?**
 ***
 This simply to create a copy of the repository on the local system and allow bidirectional communication or sync between the local copy and the remote repository on github. It happens in few simple steps:
 
@@ -46,4 +46,4 @@ This simply to create a copy of the repository on the local system and allow bid
 
 
 
-A local clone or copy of your directory is normally created in the directory chosed earlier.
+Excecute the whole command and a local clone of your directory is normally created in the directory chosed earlier.
