@@ -5,6 +5,11 @@ This simply to create a copy of the repository on the local system and allow bid
 ### a/- Connect to github and browse to the specific repository page.
 
 
+![]({{site.baseurl}}//images/cloning_1_.PNG)
+
+
+
+
 
 
 
