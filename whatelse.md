@@ -35,7 +35,11 @@ This simply to create a copy of the repository on the local system and allow bid
 
 
 
-#### --> shift to the local system and start the '**Git Bash**' prompt and point to the directory where to save the copy of the repository:
+#### --> shift to the local system and start the '**Git Bash**' prompt and point to the directory where to save the copy of the repository. Then run the following command:
+
+
+![]({{site.baseurl}}/images/cloning_3_.PNG)
+
 
 
 
