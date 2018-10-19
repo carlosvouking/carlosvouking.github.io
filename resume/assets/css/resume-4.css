@@ -90,11 +90,11 @@ p {
 
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
-  -webkit-border-radius: 60%;
-  -moz-border-radius: 60%;
-  -ms-border-radius: 60%;
-  -o-border-radius: 60%;
-  border-radius: 60%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
