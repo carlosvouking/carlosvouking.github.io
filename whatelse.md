@@ -45,4 +45,4 @@ This simply to create a copy of the repository on the local system and allow bid
 
 
 
-Excecute the whole command and a local clone of your directory is normally created in the directory chosed earlier.
+Excecute the whole command and a local clone of your directory is normally created in the directory chosen earlier.
