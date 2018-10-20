@@ -32,7 +32,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-### 3/a- nvidia-smi -q -u or nvidia-smi -q --unit
+### 3/a- nvidia-smi -q -u or nvidia-smi --query --unit
 * query to display unit rather than the GPU attributes
        
 ![]({{site.baseurl}}/images/nvidia-smi_3a_.png)
@@ -75,30 +75,3 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
        
 ![]({{site.baseurl}}/images/nvidia-smi_6_.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
