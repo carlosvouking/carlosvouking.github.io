@@ -40,10 +40,23 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-## 3/b- nvidia-smi -q -i or nvidia-smi --id = 0
-* Target a specific GPU or Unit.
+## 3/b- nvidia-smi -q -d or nvidia-smi --query --display = 0
+*  Display only selected information: MEMORY, UTILIZATION, ECC, TEMPERATURE, POWER, CLOCK,
+                                    COMPUTE, PIDS, PERFORMANCE, SUPPORTED_CLOCKS,
+                                    PAGE_RETIREMENT, ACCOUNTING, ENCODER_STATS 
+
+
        
 ![]({{site.baseurl}}/images/nvidia-smi_3b_.png)
+
+
+
+
+
+
+
+
+
 
 
 
