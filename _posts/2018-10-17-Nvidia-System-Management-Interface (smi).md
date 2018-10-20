@@ -35,7 +35,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 ## 3/a- nvidia-smi -q -u or nvidia-smi -q --unit
 * this is to display unit rather than GPU attributes
        
-![]({{site.baseurl}}/images/nvidia-smi_3a.png)
+![]({{site.baseurl}}/images/nvidia-smi_3a_.png)
 
 
 
@@ -43,7 +43,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 ## 3/b- nvidia-smi -i or nvidia-smi --id = 0
 * Target a specific GPU or Unit.
        
-![]({{site.baseurl}}/images/nvidia-smi_3b.png)
+![]({{site.baseurl}}/images/nvidia-smi_3b_.png)
 
 
 
