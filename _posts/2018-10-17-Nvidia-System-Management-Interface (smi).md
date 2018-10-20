@@ -23,7 +23,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-## 3/- nvidia-smi -q or nvidia-smi --query
+## 3/- nvidia-smi -q or nvidia-smi - -query
 * display GPU or unit information.
        
 ![]({{site.baseurl}}/images/nvidia-smi_2.png)
