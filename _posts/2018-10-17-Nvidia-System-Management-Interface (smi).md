@@ -41,6 +41,24 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 ## 3/b- nvidia-smi -i or nvidia-smi --id = 0
-* display GPU or unit information.
+* Target a specific GPU or Unit.
        
-![]({{site.baseurl}}/images/nvidia-smi_2.png)
+![]({{site.baseurl}}/images/nvidia-smi_3b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
