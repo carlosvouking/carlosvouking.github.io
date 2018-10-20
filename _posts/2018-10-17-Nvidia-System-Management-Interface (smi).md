@@ -62,11 +62,19 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-### 4/- nvidia-smi pmon
+### 5/- nvidia-smi pmon
 * to  display process statistics in scrolling format
 
        
 ![]({{site.baseurl}}/images/nvidia-smi_5_.png)
+
+
+
+### 6/- nvidia-smi topo
+* to  display device/system topology
+
+       
+![]({{site.baseurl}}/images/nvidia-smi_6_.png)
 
 
 
