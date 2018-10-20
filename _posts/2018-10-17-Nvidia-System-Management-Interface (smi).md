@@ -40,7 +40,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-### 3/b- nvidia-smi --query --display=TEMPERATURE
+### 3/b- nvidia-smi --query --display=MEMORY
 *  Display GPU **MEMORY** information. The same can work with:
                       UTILIZATION, ECC, TEMPERATURE, POWER, CLOCK,
                       COMPUTE, PIDS, PERFORMANCE, SUPPORTED_CLOCKS,
