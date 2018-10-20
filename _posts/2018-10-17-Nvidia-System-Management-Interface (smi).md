@@ -54,7 +54,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 ### 4/- nvidia-smi dmon
-* to  Displays device statistics in scrolling format
+* to  display device statistics in scrolling format
 
        
 ![]({{site.baseurl}}/images/nvidia-smi_4_.png)
@@ -63,7 +63,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 ### 4/- nvidia-smi pmon
-* to  Displays process statistics in scrolling format
+* to  display process statistics in scrolling format
 
        
 ![]({{site.baseurl}}/images/nvidia-smi_5_.png)
