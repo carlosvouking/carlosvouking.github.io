@@ -5,7 +5,7 @@ published: true
 
 I have been looking for a way to control my system GPU behaviour when involved in huge processing tasks. For instance, the current temperature and memory consumption could be good indicators of the GPU state and help prevent possible crashes.
 
-Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia-management-library-nvml/),this talk is an attempt to provide the commands mostly used to track and control the GPU parameters.
+Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia-management-library-nvml/),this talk is an attempt to provide the commands mostly used to track and control the GPU parameters in the system.
 
 ### 1/- nvidia-smi:
 * display GPU general info in a tabular form.
