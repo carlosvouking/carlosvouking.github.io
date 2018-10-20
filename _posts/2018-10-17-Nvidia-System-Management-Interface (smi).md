@@ -40,10 +40,11 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-## 3/b- nvidia-smi -q -d or nvidia-smi --query --display
-*  Display only selected information: MEMORY, UTILIZATION, ECC, TEMPERATURE, POWER, CLOCK,
-                                    COMPUTE, PIDS, PERFORMANCE, SUPPORTED_CLOCKS,
-                                    PAGE_RETIREMENT, ACCOUNTING, ENCODER_STATS 
+## 3/b- nvidia-smi -q -d=TEMPERATURE or nvidia-smi --query --display=TEMPERATURE
+*  Display GPU MEMORY information. The sme can work with:
+                      UTILIZATION, ECC, TEMPERATURE, POWER, CLOCK,
+                      COMPUTE, PIDS, PERFORMANCE, SUPPORTED_CLOCKS,
+                      PAGE_RETIREMENT, ACCOUNTING, ENCODER_STATS 
 
 
        
