@@ -15,7 +15,7 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-## 2/- nvidia-smi -L or nvidia-smi - - list-gpus
+## 2/- nvidia-smi -L or nvidia-smi --list-gpus
 * display a list of GPUs connected to the system.
        
 ![]({{site.baseurl}}/images/nvidia-smi_1.png)
@@ -23,21 +23,24 @@ Directly inpired from [nvidia developer site](http://developer.nvidia.com/nvidia
 
 
 
-## 3/- nvidia-smi -q or nvidia-smi - - query
+
+## 3/- nvidia-smi -q or nvidia-smi --query
 * display GPU or unit information.
        
 ![]({{site.baseurl}}/images/nvidia-smi_2.png)
 
 
 
-## 3/a- nvidia-smi -u or nvidia-smi - - unit
+
+## 3/a- nvidia-smi -q -u or nvidia-smi -q --unit
 * this is to display unit rather than GPU attributes
        
-![]({{site.baseurl}}/images/nvidia-smi_3.png)
+![]({{site.baseurl}}/images/nvidia-smi_3a.png)
 
 
 
-## 3/b- nvidia-smi -i or nvidia-smi - - id = 0
+
+## 3/b- nvidia-smi -i or nvidia-smi --id = 0
 * display GPU or unit information.
        
 ![]({{site.baseurl}}/images/nvidia-smi_2.png)
