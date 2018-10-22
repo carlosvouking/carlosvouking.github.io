@@ -7,12 +7,12 @@ published: true
 Usually, the most efficient way to interact with databases is by addressing specific queries. Standard operations (**CRUD**) on databases are usually done through processes called **SQL** (Structured Query Language) queries. 
  
 I am talking here about relational databases (**RDBMS**) where records can be created, read, updated, and deleted (CRUD). Each single query adressed to a SQL server database requires a certain amount of time before the response is returned from the server. It is trivial that for each query that we write to the database, we want to make it the most computational efficient way. 
-There are a number of standard tuning tricks and techniques for query execution processes to make them efficient. Among others:
+There are a number of standard tuning tricks and techniquest to make query execution efficient; Among others:
 
 **1- Query indexing**: 
 
 
-This is by far the most used and the best way to better SQL queries performance. Queries without indexes at all are more likely to be slow. Database indexing is actually a development task and the sensitiveinformation behind indexing resides in the way the data querying happens. 
+This is by far the most used and the best way to improve SQL queries performance. Queries without indexes at all are more likely to be slow. Database indexing is actually a development task and the sensitive information behind indexing resides in the way the data querying happens. 
 
  
 **2- Retrieving ONLY needed data:**
@@ -68,4 +68,3 @@ The above techniques are old as SQL is, and they do work effectively in helping 
 Normally speaking, **Reinforcement learning** was not considered as part of the multiple SQL query optimization techniques. A research [paper](https://arxiv.org/pdf/1808.03196.pdf) recently came out and showed than the use of reinforcement learning could make query execution a lot faster than the standard techniques we are already used to.
 
 #### Why Reinforcement learning vs the common standard techniques?
-
