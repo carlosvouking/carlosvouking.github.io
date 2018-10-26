@@ -44,3 +44,7 @@ and again another string variation of **_"Deep Learning"_** gets me a yet differ
 
 this confirms the idea according to which editing my thesis report and passing it to git produces a unique and different key linked to each edited version of the report.
 
+
+
+Remember that each of my reports objects in git has a 
+
