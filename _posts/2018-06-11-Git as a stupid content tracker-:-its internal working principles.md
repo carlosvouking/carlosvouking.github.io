@@ -16,9 +16,7 @@ to hash an object in git, use the command: **_git hash-object_** and append the 
 ![png](/images/git0.PNG)
 
 
-I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not.
-
-I use a different approach by firing up your git bash commnad terminal and typing: _**'$ echo 'deep learning' | git hash-object --stdin'**_, it will create a unique hash key.  
+I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not. I use a different approach by firing up your git bash commnad terminal and typing: _**'$ echo 'deep learning' | git hash-object --stdin'**_, it will create a unique hash key.  
 
 
 
@@ -26,7 +24,8 @@ I use a different approach by firing up your git bash commnad terminal and typin
 
 
 
-The string **_"Deep learning"_** passed to git produces a complete different hash key:
+What I do is outputting the _'deep learning'_ object with the _'echo_' command and passing it to the _'hash-object'_ from the standaed input (--stdin).
+Changing a letter or even the lower case 'd' into uppercase 'D', the The string **_"Deep learning"_** passed to git produces a complete different hash key:
 
 
 
