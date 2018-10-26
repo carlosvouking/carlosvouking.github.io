@@ -45,7 +45,7 @@ this confirms the idea according to which editing my thesis report and passing i
 
 
 
-**Uniqueness of SHA1 keys**
+**Uniqueness scope of SHA1 keys**
 
 
 
