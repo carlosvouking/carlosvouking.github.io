@@ -10,4 +10,5 @@ The benefit of this is that, at a certain point in time, I can ask git to give m
 
 **Let's loo at it that practically.**
 If I consider passing the string _"deep learning"_ to git, it will create the following hash key:  _'b075a46024e2ea2b418a26ea14d4a57759fbf3d1'_.
-firing up your git bash commnad terminal and typing: '$ echo 'deep learning' | git hash-object --stdin'
+By firing up your git bash commnad terminal and typing: '$ echo 'deep learning' | git hash-object --stdin':
+
