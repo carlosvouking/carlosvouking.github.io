@@ -1,6 +1,6 @@
 ---
-published: false
+published: true
 ---
 ## Git internal working principle.
 
-Wikipedia says that _'Git is a distributed revision control system'_****
+[Wikipedia](https://en.wikipedia.org/wiki/Git) says that **_'Git is a distributed revision control system'_**.  
