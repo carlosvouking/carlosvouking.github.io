@@ -49,7 +49,8 @@ this confirms the idea according to which editing my thesis report and passing i
 the key computed by git for the string 'deep learning' is unique. it will always be 'b075a46024e2ea2b418a26ea14d4a57759fbf3d1' whether I am working with git in a specific project or even universally. For any bunch of strings I push to git, it will allocate a unique for that particular and exact bunch of strings. A different bunch of strings push will have a different hash key. Key collision is not possible.
 
 
-
+**Git is also persistent**
+When generating a hash key for the 'deep learning' string, the string itself can simultaneously be saved in the repository by appending an '-w' to  the hashing object command. '-w' which stands for 'write' 
 
 
 
