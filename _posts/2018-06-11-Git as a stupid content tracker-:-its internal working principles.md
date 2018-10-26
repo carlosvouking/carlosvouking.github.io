@@ -50,7 +50,7 @@ the key computed by git for the string 'deep learning' is unique. it will always
 
 
 **Git is also persistent**
-When generating a hash key for the 'deep learning' string, the string itself can simultaneously be saved in the repository by appending an '-w' to  the hashing object command. '-w' which stands for 'write' 
+When generating a hash key for the 'deep learning' string, the string itself can simultaneously be saved in the repository by appending an **'-w'** argument to  the hashing object command. **'-w'** which stands for 'write' 
 
 
 
