@@ -9,7 +9,16 @@ Git appears to be like a mapping table which links **keys** and **values** and s
 The benefit of this is that, at a certain point in time, I can ask git to give me a specific saved version of my thesis report and it will be able to give me the exact one based on its  corresponding hash. That is conceptually how git works internally.
 
 **Let's loo at it that practically.**
-If I consider passing the string **_"deep learning"_** to git, by firing up your git bash commnad terminal and typing: _**'$ echo 'deep learning' | git hash-object --stdin'**_, it will create a unique hash key.  
+If I consider passing the string **_"deep learning"_** to git, 
+to hash an object in git, use the command: **_git hash-object_** and append the body string to hash like so:
+
+
+![png](/images/git0.PNG)
+
+
+I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not.
+
+I use a different approach by firing up your git bash commnad terminal and typing: _**'$ echo 'deep learning' | git hash-object --stdin'**_, it will create a unique hash key.  
 
 
 
