@@ -65,6 +65,17 @@ check in the directory using 'ls -a' command , there is effectively a git reposi
 
 
 
+As far as I have a repository created, I can persist the 'deep learning' string into it while asking git to compute its hash key. The command **echo 'deep learning' | git hash-object --stdin -w** does it as follow:
+
+
+![png](/images/git6.PNG)
+
+
+
+
+
+
+
 
 
 
