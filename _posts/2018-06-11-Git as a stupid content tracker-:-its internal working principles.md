@@ -13,13 +13,19 @@ If I consider passing the string **_"deep learning"_** to git, by firing up your
 
 ![png](/images/git1.PNG)
 
+
+
 The string **_"Deep learning"_** passed to git produces a complete different hash key:
 
 ![png](/images/git2.PNG)
 
+
+
 and again another string variation of **_"Deep Learning"_** gets me a yet different hash key.
 
 ![png](/images/git3.PNG)
+
+
 
 
 this confirms the idea according to which editing my thesis report and passing it to git produces a unique and different key linked to each edited version of the report.
