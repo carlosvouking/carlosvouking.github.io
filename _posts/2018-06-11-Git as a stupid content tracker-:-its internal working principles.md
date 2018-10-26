@@ -46,5 +46,14 @@ this confirms the idea according to which editing my thesis report and passing i
 
 
 **Could two different bodies collide ? have the same key ?**
-Remember that each of my reports objects in git table (also called **repository**) possess its own key or SHA1. 
+Remember that each of my reports objects in git table (also called **repository**) possess its own key or SHA1. This is really unlikely to happen.
+
+
+
+
+
+
+
+
+
 
