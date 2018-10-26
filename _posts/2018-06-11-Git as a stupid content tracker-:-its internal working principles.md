@@ -25,7 +25,7 @@ I end up with an error because 'hash-object' command takes 'deep learning' as th
 
 
 What I do is outputting the _'deep learning'_ object with the _'echo_' command and passing it to the _'hash-object'_ from the standaed input (--stdin).
-Changing a letter or even the lower case 'd' into uppercase 'D', the The string **_"Deep learning"_** passed to git produces a complete different hash key:
+Changing a letter or even the lower case **'d'** into uppercase **'D**', the The string **_"Deep learning"_** passed to git produces a complete different hash key:
 
 
 
