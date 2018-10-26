@@ -9,8 +9,7 @@ Git appears to be like a mapping table which links **keys** and **values** and s
 The benefit of this is that, at a certain point in time, I can ask git to give me a specific saved version of my thesis report and it will be able to give me the exact one based on its  corresponding hash. That is conceptually how git works internally.
 
 **Let's loo at it that practically.**
-If I consider passing the string **_"deep learning"_** to git, 
-to hash an object in git, use the command: **_git hash-object_** and append the body string to hash like so:
+If I consider passing the string **_"deep learning"_** to git,to hash an object in git, use the command: **_git hash-object_** and append the body string to hash like so:
 
 
 ![png](/images/git0.PNG)
@@ -24,8 +23,7 @@ I end up with an error because 'hash-object' command takes 'deep learning' as th
 
 
 
-What I do is outputting the _'deep learning'_ object with the _'echo_' command and passing it to the _'hash-object'_ from the standaed input (--stdin).
-Changing a letter or even the lower case **'d'** into uppercase **'D**', the The string **_"Deep learning"_** passed to git produces a complete different hash key:
+What I do is outputting the _'deep learning'_ object with the _'echo_' command and passing it to the _'hash-object'_ from the standaed input (--stdin). Changing a letter or even the lower case **'d'** into uppercase **'D**', the The string **_"Deep learning"_** passed to git produces a complete different hash key:
 
 
 
@@ -69,13 +67,3 @@ As far as I have a repository created, I can persist the 'deep learning' string 
 
 
 ![png](/images/git6.PNG)
-
-
-
-
-
-
-
-
-
-
