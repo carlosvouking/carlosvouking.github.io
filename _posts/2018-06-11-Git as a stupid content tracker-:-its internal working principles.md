@@ -53,7 +53,16 @@ the key computed by git for the string 'deep learning' is unique. it will always
 When generating a hash key for the 'deep learning' string, the string itself can simultaneously be saved in the repository by appending an **'-w'** argument to  the hashing object command. **'-w'** which stands for 'write'. to save the string in a git repository, the repository itself has to exist. I can create one as follow:
 
 
-![png](/images/git3.PNG)
+![png](/images/git4.PNG)
+
+
+
+check in the directory , there is effectively a git repository initiated. the ls command list the directory contents and the -a attribute show the hidden files  
+
+
+
+![png](/images/git5.PNG)
+
 
 
 
