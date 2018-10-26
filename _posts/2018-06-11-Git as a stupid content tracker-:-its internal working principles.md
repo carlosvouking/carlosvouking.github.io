@@ -13,7 +13,7 @@ If I consider passing the string **_"deep learning"_** to git, by firing up your
 
 ![png](/images/git1.PNG)
 
-The string **_"Deep learning"_** passed to git prodices a complete different hash key:
+The string **_"Deep learning"_** passed to git produces a complete different hash key:
 
 ![png](/images/git2.PNG)
 
