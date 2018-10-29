@@ -187,7 +187,7 @@ Usually after cleaning the staging zone and subsequent commits, there is this co
 
 
 
-Glancing at the **'objects database folder'**, there are few folders among which one named **'df/'** which are the first two digits of the hash key commit. I then unzip the folder with **'git cat-file'** to print the content behind the hash key.
+Glancing at the **'objects database folder'**, there are few folders among which one named **'df/'** which are the first two digits of the hash key commit. I then unzip the folder with **'git cat-file'** to print the content behind the hash key commit.
 
 
 
