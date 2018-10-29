@@ -77,8 +77,13 @@ Git has created the hash key and at the same time saved the its contents. Where 
 
 
 
-There is a few folders and files in the repository. Git saved all its contents in the **objects** folder know as **object database**.
+There is a few folders and files in the repository. Git usually saves all its contents in the **objects** folder know as **object database**.
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git7_a.PNG)
+
+
+
+if I look into the **objects** folder, there is a certain number of folders. The one that I will focus on now is the one named **b0/**. It happens that these first 2 digits are the starting digits of the hash key generated when 
 
 
