@@ -122,6 +122,7 @@ the whole folder structure 'b0'/'75a46024e2ea2b418a26ea14d4a57759fbf3d1' is call
 
 
 ### **Git as a stupid content tracker**
+
 Git not only maps keys and their contents, it also tracks contents of files and directories. To understand its file tracking ability, I will build a project called **resNets** that will be exposed to git with the **'git init'** command.
 
 
