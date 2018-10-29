@@ -70,6 +70,15 @@ As far as I have a repository created, I can persist the 'deep learning' string 
 
 
 
-Git has created the hash key and at the same time saved the its contents. Where is that hash key content saved? 
+Git has created the hash key and at the same time saved the its contents. Where is that hash key content saved? Query the content of the .git repository with **'ls .git'** shows what is present as default in the repository created above.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git7.PNG)
+
+
+
+There is a few folders and files in the repository. Git saved all its contents in the **objects** folder know as **object database**.
+
+
 
 
