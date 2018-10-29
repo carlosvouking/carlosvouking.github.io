@@ -167,12 +167,14 @@ Let me commit them with **' git commit -m "First commit for resNet project" '**
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git16_a1.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git16_a1.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git16_a2.PNG)
+
+
+Another 'git status' shows that there is nothing untracked in the **resNets** projects. 
 
 
 
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git17.PNG)
 
 
 
