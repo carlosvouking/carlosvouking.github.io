@@ -84,6 +84,15 @@ There is a few folders and files in the repository. Git usually saves all its co
 
 
 
-if I look into the **objects** folder, there is a certain number of folders. The one that I will focus on now is the one named **b0/**. It happens that these first 2 digits are the starting digits of the hash key generated when 
+if I look into the **objects** folder, there is a certain number of folders. The one that I will focus on now is the one named **b0/**. It happens that these first 2 digits ***'b'*** and ***'0'*** are the starting digits of the hash key generated when saving the string **'deep learning'**. 
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git8.PNG)
+
+
+
+
+Inside the folder **b0/**, there is a file with a name 
 
 
