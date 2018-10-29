@@ -141,7 +141,7 @@ Doing a **'git status'** in the project directory tells more about files present
 
 
 
-To commint untracked files with git, I have to put them in a **'staging'** zone. This zone is like a bridge area between untracked files and the files alraedy commited. So putting untracked files in the staging zone make them ready for the next commit. Untracked files are adding to the staging zone with the **'git add'** command.
+To commint untracked files with git, I have to put them in a **'staging'** zone. This zone is like a bridge area between untracked files and the files alraedy committed. So putting untracked files in the staging zone make them ready for the next commit. Untracked files are adding to the staging zone with the **'git add'** command.
 
 
 
@@ -150,6 +150,13 @@ To commint untracked files with git, I have to put them in a **'staging'** zone.
 
 
 
+
+Then a **'git status'** shows that the files are now beeing tracked by git and ready to be committed
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git14.PNG)
 
 
 
