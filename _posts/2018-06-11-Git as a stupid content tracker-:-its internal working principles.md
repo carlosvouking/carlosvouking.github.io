@@ -178,7 +178,7 @@ Another 'git status' shows that there is nothing untracked in the **resNets** pr
 
 
 
-Usually after cleaning the staging zone and subsequent commits, there is this command which is used to check the list of all the existing commits
+Usually after cleaning the staging zone and subsequent commits, there is this command (**'git log'**) which is used to check the list of all the existing commits. 
 
 
 
@@ -186,6 +186,8 @@ Usually after cleaning the staging zone and subsequent commits, there is this co
 
 
 
+
+Glancing at the **'objects database folder'**, there are few folders among which one named **'df'** which are the first two digits of the commit
 
 
 
