@@ -12,14 +12,14 @@ The benefit of this is that, at a certain point in time, I can ask git to give m
 If I consider passing the string **_"deep learning"_** to git,to hash an object in git, use the command: **_git hash-object_** and append the body string to hash like so:
 
 
-![png](/images/git0.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git0.PNG)
 
 
 I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not. I use a different approach by firing up your git bash commnad terminal and typing the following which will create a unique hash key.
 
 
 
-![png](/images/git1.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git1.PNG)
 
 
 
@@ -27,7 +27,7 @@ What I do is outputting the _'deep learning'_ object with the _'echo_' command a
 
 
 
-![png](/images/git2.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git2.PNG)
 
 
 
@@ -35,7 +35,7 @@ and again another string variation of **_"Deep Learning"_** gets me a yet differ
 
 
 
-![png](/images/git3.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git3.PNG)
 
 
 
@@ -51,7 +51,7 @@ the key computed by git for the string 'deep learning' is unique. it will always
 When generating a hash key for the 'deep learning' string, the string itself can simultaneously be saved in the repository by appending an **'-w'** argument to  the hashing object command. **'-w'** which stands for 'write'. to save the string in a git repository, the repository itself has to exist. I can create one as follow: **'git init'**
 
 
-&nbsp;&nbsp;&nbsp;![png](/images/git4.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git4.PNG)
 
 
 
@@ -59,11 +59,11 @@ check in the directory using 'ls -a' command , there is effectively a git reposi
 
 
 
-![png](/images/git5.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git5.PNG)
 
 
 
 As far as I have a repository created, I can persist the 'deep learning' string into it while asking git to compute its hash key. The command **echo 'deep learning'** | **git hash-object --stdin -w** does it as follow:
 
 
-![png](/images/git6.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git6.PNG)
