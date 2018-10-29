@@ -121,14 +121,21 @@ the whole folder structure 'b0'/'75a46024e2ea2b418a26ea14d4a57759fbf3d1' is call
 
 
 
-
-Git not only maps keys and their contents, it also tracks contents of files and directories. To understand its file tracking ability, I will build a project that will be exposed to git with the **'git init'** command.
+### **Git as a stupid content tracker**
+Git not only maps keys and their contents, it also tracks contents of files and directories. To understand its file tracking ability, I will build a project called **resNets** that will be exposed to git with the **'git init'** command.
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git12.PNG)
 
 
+
+Doing a **'git status'** in the project directory tells more about files present in the project and those that are not yet tracked by git.
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git13.PNG)
 
 
 
