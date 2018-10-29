@@ -161,6 +161,8 @@ Then a **'git status'** shows that the files are now beeing tracked by git and r
 
 
 
+Let me commit them with **' git commit -m "First commit for resNet project" '**
+
 
 
 
