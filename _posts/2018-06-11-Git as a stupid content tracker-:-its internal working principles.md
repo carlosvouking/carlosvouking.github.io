@@ -103,7 +103,7 @@ Inside the folder **b0/**, there is a file whose name corresponds to the remaini
 
 
 One question which might be raised is where the string **'deep learning'** stored ? It has been encrypted within the file and because of the compression that git makes to save space, this file within the **'b0'** folder can't just be opened. However to look at its content, git provides the following command:
-**'git cat-file '**,  which takes the name of the file as the argument with an attribute of choice appended to it.
+**'git cat-file '**,  which takes the name of the file as the argument with the **-t** attribute appended to it to tell more about the type of the file.
 
 
 
@@ -112,7 +112,7 @@ One question which might be raised is where the string **'deep learning'** store
 
 
 
-the whole folder structure 'b0'/'75a46024e2ea2b418a26ea14d4a57759fbf3d1' is called a **blob**; just to mean a piece of content. To actually unzip the file, remove the header and retrieve the string hidden by thr hash key, I run the same command but this time with the -p argument which tells git to print the actual content of the file. The original string 'deep learning' is retrieved.
+the whole folder structure 'b0'/'75a46024e2ea2b418a26ea14d4a57759fbf3d1' is called a **blob**; just to mean a piece of content. To actually unzip the file, remove the header and retrieve the string hidden by thr hash key, I run the same command but this time with the **-p** argument which tells git to print the actual content of the file. The original string 'deep learning' is retrieved.
 
 
 
