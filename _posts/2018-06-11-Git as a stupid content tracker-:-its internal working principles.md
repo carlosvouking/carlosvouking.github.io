@@ -131,12 +131,34 @@ Git not only maps keys and their contents, it also tracks contents of files and 
 
 
 
-Doing a **'git status'** in the project directory tells more about files present in the project and those that are not yet tracked by git.
+Doing a **'git status'** in the project directory tells more about files present in the project and those that are not yet tracked by git. Git has not been told yet what to do with the untracked files (in red font color).
 
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git13.PNG)
+
+
+
+
+To commint untracked files with git, I have to put them in a **'staging'** zone. This zone is like a bridge area between untracked files and the files alraedy commited. So putting untracked files in the staging zone make them ready for the next commit. Untracked files are adding to the staging zone with the **'git add'** command.
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git14.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
