@@ -67,3 +67,9 @@ As far as I have a repository created, I can persist the 'deep learning' string 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git6.PNG)
+
+
+
+Git has created the hash key and at the same time saved the its contents. Where is that hash key content saved? 
+
+
