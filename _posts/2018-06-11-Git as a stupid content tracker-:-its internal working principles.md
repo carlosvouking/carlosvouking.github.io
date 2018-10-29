@@ -170,7 +170,7 @@ Let me commit them with **' git commit -m "First commit for resNet project" '**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git16_a2.PNG)
 
 
-Another 'git status' shows that there is nothing untracked in the **resNets** projects. all the files have been committed by git. The satging zone is clean.
+Another 'git status' shows that there is nothing untracked in the **resNets** projects. all the files have been committed by git. The staging zone is clean.
 
 
 
@@ -178,9 +178,11 @@ Another 'git status' shows that there is nothing untracked in the **resNets** pr
 
 
 
+Usually after cleaning the staging zone and subsequent commits, there is this command which is used to check the list of all the existing commits
 
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git18.PNG)
 
 
 
