@@ -15,7 +15,7 @@ If I consider passing the string **_"deep learning"_** to git,to hash an object 
 ![png](/images/git0.PNG)
 
 
-I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not. I use a different approach by firing up your git bash commnad terminal and typing the following which will create a unique hash key. _**'echo deep learning | git hash-object --stdin'**_
+I end up with an error because 'hash-object' command takes 'deep learning' as the name of a file, which is not. I use a different approach by firing up your git bash commnad terminal and typing the following which will create a unique hash key.
 
 
 
