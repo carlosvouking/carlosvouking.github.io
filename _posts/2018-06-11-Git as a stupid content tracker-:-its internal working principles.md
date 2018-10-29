@@ -93,7 +93,7 @@ if I look into the **objects** folder, there is a certain number of folders. The
 
 
 
-Inside the folder **b0/**, there is a file whose name corresponds to the remainig characters coming after the **'b0'** starting digits of the hash key. Git 
+Inside the folder **b0/**, there is a file whose name corresponds to the remainig characters coming after the **'b0'** starting digits of the hash key. Git usually keeps its objects contents in a folder-like structure.
 
 
 
