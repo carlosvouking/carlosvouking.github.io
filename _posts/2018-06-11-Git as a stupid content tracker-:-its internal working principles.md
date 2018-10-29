@@ -102,4 +102,20 @@ Inside the folder **b0/**, there is a file whose name corresponds to the remaini
 
 
 
+One question which might be raised is where the string **'deep learning'** stored ? It has been encrypted within the file and because of the compression that git makes to save space, this file within the **'b0'** folder can't just be opened. However to look at its content, git provides the following command:
+**'git cat-file '**,  which takes the name of the file as the argument with an attribute of choice appended to it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
