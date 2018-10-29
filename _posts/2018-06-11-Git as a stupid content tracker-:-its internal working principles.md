@@ -151,7 +151,7 @@ To commint untracked files with git, I have to put them in a **'staging'** zone.
 
 
 
-Then a **'git status'** shows that the files are now beeing tracked by git and ready to be committed
+Then a **'git status'** shows that the files are now beeing tracked by git and ready to be committed (in green font color).
 
 
 
