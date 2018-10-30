@@ -199,8 +199,6 @@ Glancing at the **'objects database folder'**, there are few folders among which
 
 Git has organised the project object in a folder hub as seen above:
 
-
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git20.PNG)
 
 
