@@ -205,11 +205,11 @@ Git has organised the project object in a folder hub structure as seen above:
 
  - The folder **'df/'** contains the **'resNets'** project hash information.
  
- - the folder **'93/'** is a tree strucutre. Unzippig it to show its contents:
+ - the folder **'93/'** is a tree strucutre. Unzippig it shows its contents: a tree **'a4/'** and a blob **'e6/'**.
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git20_a.PNG)
  
  
- - 
+ - the subfolder **'a4/'** is a tree within the folder **'93/'** can also be unzipped.
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git20_6.PNG)
  
  
