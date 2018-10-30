@@ -161,7 +161,7 @@ Then a **'git status'** shows that the files are now beeing tracked by git and r
 
 
 
-Let me commit them with **' git commit -m "First commit for resNet project" '**
+Let me commit them with **' git commit -m "First commit for resNet project" '**   
 
 
 
@@ -199,6 +199,7 @@ Glancing at the **'objects database folder'**, there are few folders among which
 
 
 Git has organised the project object in a folder hub structure as seen above:
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git20.PNG)
