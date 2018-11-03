@@ -220,10 +220,4 @@ Git has organised the project object in a folder hub structure as seen above:
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![png](/images/git20_b.PNG)
  
  
- This is pretty much how **git** use its internal system to track and persist repositories files and directories.
- 
- 
- 
- 
- 
- 
+ This is pretty much how **git** uses its internal system to track and persist repositories files and directories.
