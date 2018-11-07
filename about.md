@@ -15,7 +15,7 @@ Heartful thanks to [deeplearning.ai](http://deeplearning.ai) and specially to [f
 
 ### > Reaching out to me:
 
-[carlos.vouking@outlook.be](mailto:carlos.vouking@outlook.be) - 0032(0)470 96 89 42
+[carlos.vouking@outlook.be](mailto:carlos.vouking@outlook.be) - 0032(0)470 96 29 48
 
 ### > Coding activities:
 
