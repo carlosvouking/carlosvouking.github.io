@@ -82,3 +82,5 @@ exclude:
   - README.md
   - CNAME
   - ['*.ipynb']
+
+theme: jekyll-theme-merlot
