@@ -1,10 +1,5 @@
 ---
-published: true
+published: false
 ---
 
 ## Revisiting differentials
-
-
-
-
-
