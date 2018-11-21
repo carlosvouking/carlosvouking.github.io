@@ -26,7 +26,7 @@
         <div class="sidebar-wrapper">
          
             <div class="profile-container">
-                <a href="http://pdf-ace.com/pdfme" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img alt="Save as PDF" height="27" src="" width="120" /></a>
+                <button id="submit">To PDF</button>
                 <img class="profile" src="assets/images/profile.png" alt="" />
                 <h3 class="name">Carlos Vouking</h3> カルロス.ヴウキング                
                 <h3 class="tagline">DotNet - BI - SQL - Data analytics</h3>
@@ -267,6 +267,21 @@
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
+  
+  
+      var doc = new jsPDF(); 
+    var specialElementHandlers = { 
+        '#editor': function (element, renderer) { 
+            return true; 
+        } 
+    };
+    $('#submit').click(function () { 
+        doc.fromHTML($('#content').html(), 15, 15, { 
+            'width': 190, 
+                'elementHandlers': specialElementHandlers 
+        }); 
+        doc.save('sample-page.pdf'); 
+    });
         
 </body>
 </html>
