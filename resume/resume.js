@@ -9,5 +9,5 @@ $('#submit').click(function () {
         'width': 190, 
             'elementHandlers': specialElementHandlers 
     }); 
-    doc.save('sample-page.pdf'); 
+    doc.save('CV_carlos_vouking.pdf'); 
 })
