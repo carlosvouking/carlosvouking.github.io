@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/resume-4.css">
-    <scirpt>
+    <script>
     var doc = new jsPDF(); 
     var specialElementHandlers = { 
        '#editor': function (element, renderer) { 
@@ -26,12 +26,12 @@
        } 
     };
     $('#submit').click(function () { 
-    doc.fromHTML($('#content').html(), 15, 15, { 
+      doc.fromHTML($('#content').html(), 15, 15, { 
         'width': 190, 
             'elementHandlers': specialElementHandlers 
-    }); 
-    doc.save('CV_carlos_vouking.pdf'); 
-})     
+      }); 
+      doc.save('CV_carlos_vouking.pdf'); 
+    }) ;    
     </script>  
 </head> 
 
