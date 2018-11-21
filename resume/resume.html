@@ -18,6 +18,21 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/resume-4.css">
+    <scirpt>
+    var doc = new jsPDF(); 
+var specialElementHandlers = { 
+    '#editor': function (element, renderer) { 
+        return true; 
+    } 
+};
+$('#submit').click(function () { 
+    doc.fromHTML($('#content').html(), 15, 15, { 
+        'width': 190, 
+            'elementHandlers': specialElementHandlers 
+    }); 
+    doc.save('CV_carlos_vouking.pdf'); 
+})     
+    </script>  
 </head> 
 
 <body>
@@ -267,7 +282,7 @@
         </div><!--//container-->
     </footer><!--//footer-->  
 
-<script type="text/javascript" src="resume/resume.js"></script> 
+ 
   
 </body>
 </html>
