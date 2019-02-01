@@ -1,0 +1,293 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CV - Carlos</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/resume-4.css">
+  
+    <script type="text/javascript">
+    var doc = new jsPDF(); 
+    var specialElementHandlers = { 
+       '#editor': function (element, renderer) { 
+        return true; 
+       } 
+    };
+    $('#submit').click(function () { 
+      doc.fromHTML($('#content').html(), 15, 15, { 
+        'width': 190, 
+            'elementHandlers': specialElementHandlers 
+      }); 
+      doc.save('CV_carlos_vouking.pdf'); 
+    }) ;   
+    </script>
+  
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div id="editor"></div> 
+        <!--<button id="submit">CV PDF</button>-->
+        <div class="sidebar-wrapper" id='content'>            
+            <div class="profile-container">                
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h3 class="name">Carlos Vouking</h3> カルロス.ヴウキング                
+                <h3 class="tagline">DotNet - BI - SQL - Data analytics</h3>
+            </div><!--//profile-container-->
+          
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: carlos.vouking@outlook.be">carlos.vouking@outlook.be</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:+32(0)4709689 42">+32(0)470 96 29 48</a></li>
+                    <li class="website"><i class="fas fa-globe"></i><a href="https://carlosvouking.github.io/" target="_blank">site web</a></li>
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/carlos-vouking-46799a17" target="_blank">Sur LinkedIn</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/carlosvouking" target="_blank">Sur Github</a></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/saintwitt" target="_blank">Sur Twitter</a></li>
+                </ul>
+            </div><!--//contact-container-->
+          
+          
+            <div class="education-container container-block">
+                <h2 class="container-block-title">ETUDES</h2>
+              
+              <div class="item">
+                    <h4 class="degree">Practical Deep Learning for Coders, part-time Diversity Fellowships</h4>
+                    <h5 class="meta"><a href="http://www.fast.ai/2018/08/16/diversity-fellowships/" target="_blank">University of San Francisco (USF)</a></h5>
+                    <div class="time">22/10/2018 - 12/12/2018</div>
+                </div><!--//item-->
+              
+              <div class="item">
+                    <h4 class="degree">Connaissance de base en entrepreunariat</h4>
+                    <h5 class="meta"><a href="https://www.syntra-mvl.be/opleiding/basiskennis-bedrijfsbeheer-jouw-businessplan-9-maand" target="_blank">SYNTRA Midden-Vlaanderen (Belgium)</a></h5>
+                    <div class="time">2014 - 2014</div>
+                </div><!--//item-->
+              
+                <div class="item">
+                    <h4 class="degree">BSc Gestion et TIC</h4>
+                    <h5 class="meta"><a href="http://en.apu.ac.jp/home/study/" target="_blank">Ritsumeikan Asia Pacific University (Japan)</a></h5>
+                    <div class="time">2007 - 2011</div>
+                </div><!--//item-->
+              
+                <div class="item">
+                    <h4 class="degree">BSc de Biochimie</h4>
+                  <h5 class="meta"><a href="https://www.univ-dschang.org/les-faculte-en-resume/" target="_blank">University of Dschang (Cameroon)</a></h5>
+                    <div class="time">1998 - 2002</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+          
+          
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Langues</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Français <span class="lang-desc">(Natif)</span></li>
+                    <li>Anglais <span class="lang-desc">(Professionel)</span></li>
+                    <li>Néerlandais <span class="lang-desc">(Moyen)</span></li>
+                    <li>Japonais - 日本語 <span class="lang-desc">(Moyen)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interêts</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Voyage</li>
+                    <li>Shopping</li>
+                    <li>Danser sur de salsa</li>                  
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Orientation</h2>
+                <div class="summary">
+                    <p>
+                     J'ai toujours aimé les mathématiques et les sciences. Après avoir obtenu mon bachelor en biochimie il y a bien longtemps, j'ai fini par travailler dans une institution de microfinance où je me suis découvert et intéressé peu à peu à l'économie et à la finance au point où, grâce à un programme de bourses japonais, j'ai obtenu mon diplôme en Business IT. Bien que je puisse toujours avoir une discussion appropriée sur H2 et ½O2 formant H2O ou même sur l'appariement double base A-T et C-G, je suis plus un développeur de nos jours. Une orientation à long terme serait de creuser plus loin que possible dans des réseaux de neurones profonds afin d'aider à résoudre certains problèmes de société et d'apporter ma petite pierre à la mise en pratique de l'apprentissage automatique dans les entreprises pour lesquelles je travaillerai.
+                    </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Support IT et DotNet, Analyse de données</h3>
+                            <div class="time">2015 - Présent</div>
+                        </div><!--//upper-row-->
+                        <div class="company">B-Connected, Bruxelles</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>e suis principalement impliqué dans les automatisations et la conception de rapports sur les services de génération de rapports de serveur SQL. SQL est mon outil de tous les jours. C# dotNet intervient naturellement lorsqu'il est nécessaire de créer plus de fonctionnalités liées au back-end et aux interfaces graphiques. </p>  
+                        <p>J'assure également les premières tâches d'aide en cas de besoin. Qu'il s'agisse de tâches de gestion de système aléatoires et de base ou de manipulation de logiciels. De temps en temps, j'aborde également les services Active Directory et les problèmes basiques liés au réseau. </p>
+                        <p>Avec le battage médiatique sur l'intelligence artificielle, je me familiarisé avec les pratiques d'apprentissage automatique profond. Tous les jours, je suis confronté à une quantité énorme de données et je ne pouvais me retenir d'appliquer des modèles conçus pour les réseaux neuronaux profonds afin de tirer certaines informations de ces données. Nous ne l'utilisons pas encore du tout, mais l'entreprise dispose d'un vaste domaine d'applicabilité de l'apprentissage automatique et j'espère pouvoir l'introduire et convaincre la direction de l'adopter progressivement.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Interne C# .Net développeur d'applications web</h3>
+                            <div class="time">2013 - 2013</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Koenig Solutions,  Derahdun India</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Cette expérience d'un an m'a permis de mettre la main sur le développement d'applications avec un monde réel tel qu'un projet comme résultat. La tâche quotidienne ici consistait à créer une interface graphique dans des formulaires Windows, à les lier à l’arrière-plan par le biais de requêtes SQL, de requêtes LINQ et de procédures stockées. Un accent particulier a été mis sur la gestion des données en temps réel.</p>  
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Employé Service Commercial</h3>
+                            <div class="time">2004 - 2007</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Credit Communautaire D' Afrique(C.C.A), Yaoundé Cameroon</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                          J'ai été impliqué ici dans la prospection de clients et la gestion de leurs comptes bancaires. C'était très difficile, car notre équipe avait la responsabilité de convaincre les employés de différents secteurs et profils de domicilier leur salaire chez nous.
+                        </p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>                      
+Tout au long de mes études et de ma vie professionnelle, j'ai réussi à apprendre de nouvelles choses à mésure que l'occasion se présentait. La meilleure façon d'apprendre est d'apprendre à l'enseigner aux autres. Je matérialise généralement mes résultats d'apprentissage avec des projets concrets. Certains d'entre eux sont couverts  <a href="https://carlosvouking.github.io/index"><span class="icon-holder"><i class="fas fa-archive"></i></span></a>
+                    </p>
+                </div><!--//intro-->
+              
+              
+               <!-- <div class="item">
+                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
+                    
+                </div><!--//item-->
+              
+              
+                <!--<div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
+                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
+                </div><!--//item-->
+              
+              
+                <!--<div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
+                </div><!--//item-->        
+
+            </section><!--//section-->
+          
+            
+          
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Compétences</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                  
+                   <div class="item">
+                        <h3 class="level-title">Numpy &amp; Pandas &amp; Matplotlib</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                  
+                    
+                    <div class="item">
+                        <h3 class="level-title">C#.Net</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                  
+                  
+                  <div class="item">
+                        <h3 class="level-title">Transact-SQL</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                  
+                    
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 45%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS3</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                                       
+                    <div class="item">
+                        <h3 class="level-title">GIMP</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                  
+                  <div class="item">
+                        <h3 class="level-title">Microsoft Office</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                  
+                  
+                  <div class="item">
+                        <h3 class="level-title">Agile - Scrum</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other commercial license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Fait par <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->  
+
+ 
+  
+</body>
+</html>
+
