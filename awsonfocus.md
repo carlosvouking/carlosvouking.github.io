@@ -7,3 +7,19 @@ According to situations, we are sometimes presented with the choice to use AWS M
 
 ​
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![jpg](/images/table_aws.jpg)
+
+
+<div class="posts">  
+  
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Details...</a>
+    </article>
+  {% endfor %}
+</div>
