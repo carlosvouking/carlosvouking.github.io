@@ -16,17 +16,17 @@ Hands deep .Net development and voice driven applications (Alexa, Google Home, S
 
 [carlos.vouking@outlook.be](mailto:carlos.vouking@outlook.be) - 0032(0)470 96 29 48
 
-### > Coding activities:
+### * Coding activities:
 
-I am also currently following courses in [Pluralsight](http://pluralsight.com) and [Udemy](http://udemy.com).
+Resouceful sites: [Pluralsight](http://pluralsight.com) - [Udemy](http://udemy.com) - [Fastai](http://fast.ai).
 
 
-### > Hobbies:
+### * Hobbies:
 
 Travelling, shopping, stepping on salsa dance floors.
 
 
 
-### > What about telling me where the money is?
+### * What about telling me where the money is?
 
 Let us get in touch and figure out what we can build a better society and a fortune together.
