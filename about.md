@@ -12,7 +12,7 @@ Hands deep .Net development and voice driven applications (Alexa, Google Home, S
 
 
 
-### > Reaching out to me:
+### * Reaching out to me:
 
 [carlos.vouking@outlook.be](mailto:carlos.vouking@outlook.be) - 0032(0)470 96 29 48
 
