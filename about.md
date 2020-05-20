@@ -29,4 +29,4 @@ Travelling, shopping, stepping on salsa dance floors.
 
 ### * What about telling me where the money is?
 
-Let us get in touch and figure out what we can build a better society and a fortune together.
+Let us get in touch and figure out how we can build a better society and make a fortune together.
