@@ -14,7 +14,7 @@ Hands deep .Net development and voice driven applications (Alexa, Google Home, S
 
 ### * Reaching out to me:
 
-[carlos.vouking@outlook.be](mailto:carlosvouking@gmail.com) - 0032(0)470 96 29 48
+[carlosvouking@gmail.com](mailto:carlosvouking@gmail.com) - 0032(0)470 96 29 48
 
 ### * Coding activities:
 
