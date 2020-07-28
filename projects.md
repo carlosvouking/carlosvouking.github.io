@@ -3,7 +3,7 @@
 
 Teambelio is an employee management system which brings Human resources at users' fingerstips. Teambelio makes it incredibly easy for Human resources managers to track the schedule and workflow of the employees in theïr organizations.
 
-![Teambelio - Staff Management And Scheduling]({{site.baseurl}}/teamelio_fronpage_img.PNG)
+![Teambelio - Staff Management And Scheduling]({{site.baseurl}}/images/teamelio_fronpage_img.PNG)
 
 
 <br /><br />
